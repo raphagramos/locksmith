@@ -1,0 +1,36 @@
+
+.bar-body {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 0.5rem;
+  background-color: #102a74;
+  position: fixed top;
+  width: 100%;
+  @media screen and (max-width: 500px) {
+    width: 100%;
+    display:block;
+    text-align: center;
+    
+}}
+
+.first-text,
+.second-text {
+  font-family: 'Exo Soft', sans-serif;
+  font-weight: 600;
+  margin: 0;
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+}
+.link-text {
+  font-family: 'Exo Soft', sans-serif;
+  font-weight: 600;
+  margin: 0;
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+
+  &:hover {
+    color: #f5ba26;
+    transition: color 0.5s ease;
+  }
+}
