@@ -7,7 +7,7 @@ import {
   AboutUsImage,
   Texts,
 } from "./AboutUsComponents";
-
+import React from 'react';
 const AboutUs = () => {
   return (
     <AboutUsContainer>

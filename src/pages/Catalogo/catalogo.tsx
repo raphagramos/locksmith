@@ -15,7 +15,7 @@ import {
   FirstCatalogSection,
   CatalogTitleTwo,
 } from "./CatalogComponents";
-
+import React from 'react';
 const Catalogo = () => {
   return (
     <CatalogContainer>

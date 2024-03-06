@@ -17,7 +17,7 @@ import {
   PhoneTitle,
 } from "./HomeComponents";
 import "@fontsource/montserrat";
-
+import React from 'react';
 const Home = () => {
   return (
     <HomeContainer>

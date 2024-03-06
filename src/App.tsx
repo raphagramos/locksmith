@@ -9,7 +9,7 @@ import { useState, useEffect } from "react";
 import "reactjs-popup/dist/index.css";
 import { PhoneLink } from "./pages/Home/HomeComponents";
 import {StyledPopup} from "../components/StyledPopup"
-
+import React from 'react';
 
 const App = () => {
   const [showPopup, setShowPopup] = useState(false);
