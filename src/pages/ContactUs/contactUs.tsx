@@ -8,7 +8,7 @@ const Contact: React.FC = () => {
       <ContactTitle>Contato</ContactTitle>
 
       <Link to="tel:+351961195956" className='second-text'>
-      <ContactText> 969 819 109 • 913 143 289</ContactText>
+      <ContactText>351 961 195 956</ContactText>
       </Link>
       <ContactText>Email: aberturas24h.info@gmail.com</ContactText>
    
