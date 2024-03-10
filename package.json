@@ -6,7 +6,7 @@
   "homepage": "https://www.chaveirodonpedro.pt/",
   "scripts": {
     "dev": "vite",
-    "build": "tsc --jsx react",
+    "build": "vite build -d dist",
     "lint": "eslint . --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
     "preview": "vite preview"
   },
