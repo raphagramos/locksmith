@@ -81,7 +81,7 @@ const Navbar: React.FC = () => {
               </NavLinkWithRouter>
             </CNavItem>
             <CNavItem className="nav-link">
-              <NavLinkWithRouter to="https://api.whatsapp.com/message/SXGUDW4HN3U4J1?autoload=1&app_absent=0">
+              <NavLinkWithRouter to="https://wa.me/message/SXGUDW4HN3U4J1">
                 <StyledNavLink>
                 <ImgTwo src="public/whatsapp1.png" alt="Ícone de telefone" />
                   Acesse Nosso WhatsApp
