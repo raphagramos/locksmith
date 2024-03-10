@@ -13,7 +13,7 @@ const Contact: React.FC = () => {
       <ContactText>Email: aberturas24h.info@gmail.com</ContactText>
    
         <ContactLink href="https://wa.me/message/SXGUDW4HN3U4J1" target="_blank" rel="noopener noreferrer">
-        <ContactText><img src="whatsapp1.png" alt="Ícone de telefone" /> Ligue Já para nossso WhatsApp</ContactText> 
+        <ContactText><img src="public/whatsapp1.png" alt="Ícone de telefone" /> Ligue Já para nossso WhatsApp</ContactText> 
         </ContactLink>
     
     </ContatoContainer>

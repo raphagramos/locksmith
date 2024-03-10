@@ -6,7 +6,7 @@ WebFont.load({
     families: ['Exo Soft:600', 'Kanit'],
   },
 });
-import {mobile} from '../../../components/dimensions'
+import {mobile, mobilemin} from '../../../components/dimensions'
 
 
 const CommonTextStyles = `
@@ -297,7 +297,11 @@ const CatalogImage = styled.img`
   width: 45rem;
   max-width: 380px;
     }
-
+    ${mobilemin} {
+      width: 20rem;
+      max-width: 380px;
+      margin-bottom:2rem;
+        }
  
 `;
 

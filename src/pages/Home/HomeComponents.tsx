@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 import { Link } from 'react-router-dom';
 import WebFont from 'webfontloader';
-import {mobile} from '../../../components/dimensions'
+import {mobile,mobilemin} from '../../../components/dimensions'
 WebFont.load({
   google: {
     families: ['Exo Soft:600', 'Kanit'],
@@ -28,11 +28,9 @@ const HomeContainer = styled.div`
 `;
 
 const HomeImg = styled.img`
-  ${CommonTextStyles}
   margin: 0.5rem;
   width: 100%;
   height: 300px;
-  object-fit: cover;
   max-width: 100%;
   opacity: 0.8;
    box-shadow: 10px 0 20px rgba(16, 42, 116, 0.6);
@@ -114,7 +112,7 @@ export const ImageSection = styled.div`
 
   img {
     border-radius: 0.5rem;
-    width: 40rem;
+    width: 35rem;
     height: auto;
   }
   ${mobile} {
@@ -126,6 +124,16 @@ export const ImageSection = styled.div`
       width: 23.5rem;
       height: auto;
     }
+    ${mobilemin} {
+      width: 100% ;
+      align-items: center;
+      
+      img {
+        border-radius: 0.5rem;
+        width: 19rem;
+        height: auto;
+        margin-right:0.5rem;
+      }  
   }
 `;
 
@@ -214,6 +222,7 @@ export const PhoneTitle = styled.h2`
 
   ${mobile} {
     display:flex;
+    font-size: 20px;
     margin-right:1.5rem;
   }
 `;
@@ -233,7 +242,15 @@ export const PhoneTitleTwo = styled.h2`
 
     ${mobile} {
       display:flex;
+      font-size: 20px;
       margin-right:1.5rem;
+    }
+    ${mobilemin} {
+      font-size: 20px;
+      display:flex;
+      margin-right:1.5rem;
+      height:3rem;
+      margin-bottom:3rem;
     }
 `;
 

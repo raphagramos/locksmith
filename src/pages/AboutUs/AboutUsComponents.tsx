@@ -5,7 +5,7 @@ WebFont.load({
     families: ["Exo Soft:600", "Kanit"],
   },
 });
-import { mobile } from "../../../components/dimensions";
+import { mobile, mobilemin } from "../../../components/dimensions";
 const CommonTextStyles = `
   font-family: 'Kanit', sans-serif;
   font-weight: 300;
@@ -70,6 +70,11 @@ export const AboutUsTexts = styled.div`
     width: 100%;
     margin-top: 1.5rem;
   }
+  ${mobilemin} {
+    width: 100%;
+    margin-top: 1.5rem;
+  }
+
 `;
 
 export const AboutUsImage = styled.img`
@@ -83,5 +88,11 @@ export const AboutUsImage = styled.img`
   ${mobile} {
     width: 80%;
     text-align: center;
+  }
+  ${mobilemin} {
+    width: 80%;
+    margin-top: 1.5rem;
+    text-align: center;
+    margin-left: 1rem;
   }
 `;

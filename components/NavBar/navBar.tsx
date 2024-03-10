@@ -40,7 +40,7 @@ const Navbar: React.FC = () => {
           <CContainer fluid>
             <NavLinkWithRouter to="/">
               <span className="navbar-brand">
-                <Img src='logo.png'/>
+                <Img src='public/logo.png'/>
               </span>
             </NavLinkWithRouter>
             <CNavbarToggler
@@ -83,7 +83,7 @@ const Navbar: React.FC = () => {
             <CNavItem className="nav-link">
               <NavLinkWithRouter to="https://api.whatsapp.com/message/SXGUDW4HN3U4J1?autoload=1&app_absent=0">
                 <StyledNavLink>
-                <ImgTwo src="whatsapp1.png" alt="Ícone de telefone" />
+                <ImgTwo src="public/whatsapp1.png" alt="Ícone de telefone" />
                   Acesse Nosso WhatsApp
                 </StyledNavLink>
               </NavLinkWithRouter>

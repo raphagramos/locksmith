@@ -21,14 +21,14 @@ const Catalogo = () => {
     <CatalogContainer>
       <CatalogFirstSection>
         <CatalogTexts>
-          <CatalogFirstTitle>🔒 Serviço Completo para a sua Fechadura🔧</CatalogFirstTitle>
+          <CatalogFirstTitle>Nossos Serviços <br/>🔒🔧</CatalogFirstTitle>
 
           <CatalogSubtitleTwo>
             Saiba mais sobre as nossas especialidades
           </CatalogSubtitleTwo>
           <PhoneLink to="tel:+351961195956">
             <PhoneTitle>
-              <img src="telefone.png" alt="Ícone de telefone" />
+              <img src="public/telefone.png" alt="Ícone de telefone" />
               Ligue já, Chaveiro 24 horas
             </PhoneTitle>
           </PhoneLink>
@@ -37,7 +37,7 @@ const Catalogo = () => {
 
       <CatalogSection>
         <CatalogImageContainer>
-          <CatalogImage src="fechadura.jpeg" alt="Fechadura Blindada" />
+          <CatalogImage src="public/fechadura.jpeg" alt="Fechadura Blindada" />
         </CatalogImageContainer>
         <CatalogTexts>
           <CatalogTitle>Fechaduras para portas Blindadas</CatalogTitle>
@@ -50,7 +50,7 @@ const Catalogo = () => {
 
       <FirstCatalogSection>
         <CatalogImageContainer>
-          <CatalogImage src="fecha2e4.jpeg" alt="Fechadura 2 e 4 trancas" />
+          <CatalogImage src="public/fecha2e4.jpeg" alt="Fechadura 2 e 4 trancas" />
         </CatalogImageContainer>
         <CatalogTextsTwo>
           <CatalogTitleTwo>Fechaduras 2 e 4 trancas</CatalogTitleTwo>
@@ -63,7 +63,7 @@ const Catalogo = () => {
 
       <CatalogSection>
         <CatalogImageContainer>
-          <CatalogImage src="fechaele.jpeg" alt="Fechadura 2 e 4 trancas" />
+          <CatalogImage src="public/fechaele.jpeg" alt="Fechadura 2 e 4 trancas" />
         </CatalogImageContainer>
         <CatalogTexts>
           <CatalogTitle>

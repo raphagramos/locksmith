@@ -21,24 +21,28 @@ import React from 'react';
 const Home = () => {
   return (
     <HomeContainer>
-      <HomeImg src="home.png"></HomeImg>
+      <HomeImg src="public/home.png"></HomeImg>
       <Section>
         <GenericTexts>
-          <Title>Serviços de Chaveiro 24H</Title>
+          <Title>Atendimento</Title>
           <Subtitle>
-            Casa de Chaves Don Pedro, a sua escolha para serviços de chaveiro 24
-            horas em Portugal. Aberturas rápidas e seguras, a qualquer hora do
+          Lisboa , Cascais , Oeiras , Sintra e Margem Sul
+          <br/>24 HORAS  
+          </Subtitle>
+          <Subtitle>
+            Casa de Chaves Don Pedro, a sua escolha para serviços de chaveiro 24.
+             Aberturas rápidas e seguras, a qualquer hora do
             dia. Sua segurança, nossa prioridade.
           </Subtitle>
           <PhoneLink to="tel:+351961195956">
             <PhoneTitle>
-              <img src="telefone.png" alt="Ícone de telefone" />
+              <img src="public/telefone.png" alt="Ícone de telefone" />
               Ligue já, Chaveiro 24 horas
             </PhoneTitle>
           </PhoneLink>
         </GenericTexts>
         <ImageSection>
-          <img src="Chaveiro1.png" />
+          <img src="public/Chaveiro1.png" />
         </ImageSection>
       </Section>
 
@@ -47,7 +51,7 @@ const Home = () => {
           <TitleTwo>Emergências Resolvidas</TitleTwo>
           <TextsTwo>
             <div>Soluções rápidas para momentos críticos.</div>
-            Chaves no carro? Porta trancada? Atendimento 24 horas, rápido,
+            Esqueceu sua chave dentro do carro? Porta trancada? Atendimento 24 horas, rápido,
             eficiente, seguro. Tranquilidade em cada emergência.
           </TextsTwo>
           <TitleTwo>Qualidade Garantida</TitleTwo>
@@ -55,29 +59,29 @@ const Home = () => {
             Compromisso com a qualidade. Clientes satisfeitos, serviços
             excepcionais. Seja parte da experiência Casa de Chaves Don Pedro.
           </TextsTwo>
-          <PhoneLink to="https://api.whatsapp.com/message/SXGUDW4HN3U4J1?autoload=1&app_absent=0">
+          <PhoneLink to="https://wa.me/message/SXGUDW4HN3U4J1">
             <PhoneTitleTwo>
-              <img src="whatsapp1.png" alt="Ícone de telefone" />
+              <img src="public/whatsapp1.png" alt="Ícone de telefone" />
               Solicite agora um orçamento via WhatsApp{" "}
             </PhoneTitleTwo>
           </PhoneLink>
         </GenericTextstwo>
         <ImageSection>
-          <img src="abrecarro.jpg" />
+          <img src="public/abrecarro.jpg" />
         </ImageSection>
       </FirstSection>
 
       <ThirdSection>
         <GenericTexts>
           <Title>Marcas: </Title>
-          <Subtitle>Marcas que confiam em nós:</Subtitle>
+          <Subtitle>Marcas que trabalhamos:</Subtitle>
           <TextsThree>
             Dedicação refletida em parcerias de confiança. Confie na Casa de
             Chaves Don Pedro para a segurança da sua casa ou veículo.
           </TextsThree>
         </GenericTexts>
         <ImageSection>
-          <img src="empresas.webp" />
+          <img src="public/empresas.webp" />
         </ImageSection>
       </ThirdSection>
     </HomeContainer>
