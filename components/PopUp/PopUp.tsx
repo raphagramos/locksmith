@@ -18,7 +18,7 @@ const PopUp: React.FC = () => {
           fontFamily: "Kanit, sans-serif",
           fontWeight: 300,
           padding: "2rem",
-          marginTop: "15rem",
+          marginTop: "5rem",
           borderRadius: "10px",
         }}
       >
