@@ -3,13 +3,12 @@ import { Modal, Button } from "flowbite-react";
 import { HiOutlineExclamationCircle } from "react-icons/hi";
 import { FaWhatsapp } from "react-icons/fa";
 import { useState } from "react";
-import "./popUpStyle.css"
 
 const PopUp: React.FC = () => {
   const [showModal, setShowModal] = useState(true);
 
   return (
-    <Modal show={showModal} onClose={() => setShowModal(false)}>
+    <Modal dismissible show={showModal} onClose={() => setShowModal(false)}>
       <div className="overlay" onClick={() => setShowModal(false)} />
       <Modal.Body
         style={{
