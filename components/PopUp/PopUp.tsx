@@ -3,6 +3,7 @@ import { Modal, Button } from "flowbite-react";
 import { HiOutlineExclamationCircle } from "react-icons/hi";
 import { FaWhatsapp } from "react-icons/fa";
 import { useState } from "react";
+import "./custombuttom.css"
 
 const PopUp: React.FC = () => {
   const [showModal, setShowModal] = useState(true);
@@ -16,8 +17,8 @@ const PopUp: React.FC = () => {
           color: "#fff",
           fontFamily: "Kanit, sans-serif",
           fontWeight: 300,
-          padding: "2rem",
-          marginTop: "5rem",
+          padding: "1rem",
+          marginTop: "6rem",
           borderRadius: "10px",
         }}
       >
@@ -37,7 +38,7 @@ const PopUp: React.FC = () => {
           </p>
           <div className="flex justify-center gap-4 mt-4">
             <Button
-              className="bg-white text-blue-500 hover:text-blue-600 px-4 py-2 rounded"
+              className="custom-buttom-red bg-white text-blue-500 hover:text-blue-600 px-4 py-2 rounded"
               onClick={() => setShowModal(false)}
               style={{ marginBottom: "5px", marginRight: "3px" }}
             >
@@ -49,7 +50,7 @@ const PopUp: React.FC = () => {
               rel="noopener noreferrer"
             >
               <Button
-                className="bg-white text-blue-500 hover:text-blue-600 px-4 py-2 rounded"
+                  className="custom-button-green text-blue-500 hover:text-blue-600 px-4 py-2 rounded"
                 onClick={() => setShowModal(false)}
               >
                 <FaWhatsapp className="mr-2" /> Sim, ligar agora
