@@ -10,7 +10,6 @@ import TopBar from "../components/TopBar/topBar.tsx";
 import React from "react";
 import PopUp from "../components/PopUp/PopUp.tsx";
 
-
 const App = () => {
   
 
@@ -25,7 +24,7 @@ const App = () => {
           <Route path="/aboutUs" element={<AboutUs />} />
           <Route path="/contactUs" element={<ContactUs />} />
         </Routes>
-      
+     
     </Router>
   );
 };

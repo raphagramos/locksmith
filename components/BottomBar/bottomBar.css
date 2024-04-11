@@ -1,0 +1,34 @@
+.content-wrapper {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.bottom-bar-body {
+  align-items: left;
+  padding: 0.5rem;
+  background-color: #102a74;
+  width: 100%;
+}
+
+@media screen and (max-width: 500px) {
+  .bottom-bar-body {
+    flex-direction: column;
+    text-align: left;
+  }
+}
+
+.bottom-first-text,
+.bottom-second-text,
+.bottom-link-text {
+  font-family: 'Exo Soft', sans-serif;
+  font-weight: 600;
+  margin: 0;
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+}
+
+.bottom-link-text:hover {
+  color: #f5ba26;
+  transition: color 0.5s ease;
+}

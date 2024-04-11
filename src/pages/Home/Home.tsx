@@ -18,6 +18,7 @@ import {
 } from "./HomeComponents";
 import "@fontsource/montserrat";
 import React from 'react';
+import BottomBar from "../../../components/BottomBar/bottomBar";
 const Home = () => {
   return (
     <HomeContainer>
@@ -84,7 +85,9 @@ const Home = () => {
           <img src="public/empresas.webp" />
         </ImageSection>
       </ThirdSection>
+      <BottomBar />
     </HomeContainer>
+    
   );
 };
 
