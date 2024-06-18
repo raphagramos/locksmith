@@ -21,7 +21,7 @@ const Catalogo = () => {
     <CatalogContainer>
       <CatalogFirstSection>
         <CatalogTexts>
-          <CatalogFirstTitle>Nossos Serviços <br/>🔒🔧</CatalogFirstTitle>
+          <CatalogFirstTitle>Nossos Serviços <br />🔒🔧</CatalogFirstTitle>
 
           <CatalogSubtitleTwo>
             Saiba mais sobre as nossas especialidades
@@ -36,11 +36,12 @@ const Catalogo = () => {
       </CatalogFirstSection>
 
       <CatalogSection>
+        <CatalogTitle>Fechaduras para portas Blindadas</CatalogTitle>
         <CatalogImageContainer>
           <CatalogImage src="public/fechadura.jpeg" alt="Fechadura Blindada" />
         </CatalogImageContainer>
         <CatalogTexts>
-          <CatalogTitle>Fechaduras para portas Blindadas</CatalogTitle>
+
           <CatalogSubtitle>
             Trocas de fechaduras, aberturas no trinco e com voltas, manutenções,
             troca de segredos, canhões e lubrificação.
@@ -49,11 +50,11 @@ const Catalogo = () => {
       </CatalogSection>
 
       <FirstCatalogSection>
+        <CatalogTitleTwo>Fechaduras 2 e 4 trancas</CatalogTitleTwo>
         <CatalogImageContainer>
           <CatalogImage src="public/fecha2e4.jpeg" alt="Fechadura 2 e 4 trancas" />
         </CatalogImageContainer>
         <CatalogTextsTwo>
-          <CatalogTitleTwo>Fechaduras 2 e 4 trancas</CatalogTitleTwo>
           <CatalogSubtitleTwo>
             Troca de fechaduras, aberturas no trinco e com voltas, afinação e
             lubrificação.
@@ -62,13 +63,13 @@ const Catalogo = () => {
       </FirstCatalogSection>
 
       <CatalogSection>
+        <CatalogTitle>
+          Fechadura Elétrica? Conte Conosco!
+        </CatalogTitle>
         <CatalogImageContainer>
           <CatalogImage src="public/fechaele.jpeg" alt="Fechadura 2 e 4 trancas" />
         </CatalogImageContainer>
         <CatalogTexts>
-          <CatalogTitle>
-             Fechadura Elétrica? Conte Conosco! 
-          </CatalogTitle>
           <CatalogSubtitle>
             Troca de fechaduras, aberturas no trinco e com voltas, afinação e
             lubrificação.

@@ -12,7 +12,7 @@ const AboutUs = () => {
   return (
     <AboutUsContainer>
       <AboutUsSection>
-        <AboutUsImage src="public/aboutUs.jpeg" alt="Sobre Nós" />
+        <AboutUsImage src="public/aboutUs.png" alt="Sobre Nós" />
         <AboutUsTexts>
           <AboutUsTitle>Quem Somos</AboutUsTitle>
           <AboutUsSubtitle>Conheça a Casa de Chaves Don Pedro</AboutUsSubtitle>

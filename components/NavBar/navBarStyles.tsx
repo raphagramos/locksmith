@@ -1,5 +1,5 @@
 import styled from 'styled-components';
-import { CNavLink} from '@coreui/react';
+import { CNavLink, CNavbar} from '@coreui/react';
 import WebFont from 'webfontloader';
 import {mobile} from '../../components/dimensions'
 
@@ -10,7 +10,7 @@ WebFont.load({
 });
 
 export const Img = styled.img`
-  width: 15rem;  
+  width: 14rem;  
   height: auto;
 `;
 export const ImgTwo = styled.img`
@@ -22,22 +22,23 @@ export const StyledNavLink = styled(CNavLink)`
 font-family: 'Exo Soft', sans-serif;
 font-weight: 600;
 text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
-color: rgb(16, 42, 116);
+color: #8a141c;
   &:hover {
-    color:#f5ba26;
+    color: white;
   }
 
   ${mobile} {
     width:105%;
-    background-color: #white;
+    background-color: #0d0d35;
     transition: background-color 0.3s ease, box-shadow 0.3s ease;
     text-align: center;
     &.expanded {
       position: fixed;
-      top: 0;
-      left: 0;
-      right: 0;
     }
   }
-  }
+  
+`;
+
+export const StyledNavBar = styled(CNavbar)`
+background-color: #0d0d35;
 `;

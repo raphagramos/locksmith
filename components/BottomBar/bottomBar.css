@@ -7,7 +7,7 @@
 .bottom-bar-body {
   align-items: left;
   padding: 0.5rem;
-  background-color: #102a74;
+  background-color: #0d0d35;
   width: 100%;
 }
 
@@ -29,6 +29,6 @@
 }
 
 .bottom-link-text:hover {
-  color: #f5ba26;
+  color: #8a141c;
   transition: color 0.5s ease;
 }

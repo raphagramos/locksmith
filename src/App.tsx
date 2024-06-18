@@ -8,15 +8,13 @@ import ContactUs from "./pages/ContactUs/contactUs.tsx";
 import Home from "./pages/Home/Home.tsx";
 import TopBar from "../components/TopBar/topBar.tsx";
 import React from "react";
-import PopUp from "../components/PopUp/PopUp.tsx";
 
 const App = () => {
   
 
   return (
     <Router>
-      <PopUp/>
-        <TopBar />
+        {/* <TopBar /> */}
         <Navbar />
         <Routes>
           <Route path="/" element={<Home />} />

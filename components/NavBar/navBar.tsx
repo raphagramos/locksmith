@@ -8,7 +8,7 @@ import {
   CNavbarNav,
   CNavItem,
 } from '@coreui/react';
-import { Img, StyledNavLink,ImgTwo } from './navBarStyles';
+import { Img, StyledNavLink,ImgTwo, StyledNavBar } from './navBarStyles';
 import '@coreui/coreui/dist/css/coreui.min.css';
 
 interface NavLinkWithRouterProps {
@@ -35,7 +35,7 @@ const Navbar: React.FC = () => {
 
   return (
     <>
-      <CNavbar expand="lg" colorScheme="light" className="bg-white">
+      <StyledNavBar expand="lg" colorScheme="light">
         <StyledNavLink>
           <CContainer fluid>
             <NavLinkWithRouter to="/">
@@ -90,7 +90,7 @@ const Navbar: React.FC = () => {
             </CNavItem>
           </CNavbarNav>
         </CCollapse>
-      </CNavbar>
+      </StyledNavBar>
     </>
   );
 };

@@ -13,29 +13,30 @@ const CommonTextStyles = `
 
 export const AboutUsContainer = styled.div`
   ${CommonTextStyles}
-  background-color: #102a74;
+  background-color: #8a141c;
+  align-items: center;
+  justify-content: center;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  width: 100%;
 `;
 
 export const Texts = styled.p`
   ${CommonTextStyles}
   margin-top: 2rem;
-  color: rgb(16, 42, 116);
+  color: white;
   font-size: 22px;
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
 `;
 
 export const AboutUsSection = styled.div`
   ${CommonTextStyles}
-  margin: 0.5rem;
-  background-color: white;
   display: flex;
-  padding: 1.25rem;
-  width: 100%;
+  margin-top: 2rem;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
   ${mobile} {
     display: block;
     text-align: center;
@@ -45,26 +46,25 @@ export const AboutUsSection = styled.div`
 export const AboutUsTitle = styled.h1`
   font-family: "Kanit", sans-serif;
   font-weight: 600;
-  color: rgb(16, 42, 116);
+  color:  white;
   font-size: 45px;
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
 `;
 
 export const AboutUsSubtitle = styled.h2`
   ${CommonTextStyles}
-  color: rgb(16, 42, 116);
+  color: white;
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
   font-size: 25px;
   margin-top: 1rem;
 `;
 
 export const AboutUsTexts = styled.div`
-  width: 50%;
-  color: rgb(16, 42, 116);
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
+  width: 75%;
+  color: white;
   font-weight: bold;
+  margin-top:1rem;
+  text-align: center;
   font-size: 16px;
   ${mobile} {
     width: 100%;
@@ -79,11 +79,11 @@ export const AboutUsTexts = styled.div`
 
 export const AboutUsImage = styled.img`
   ${CommonTextStyles}
-  width: 150%;
-  max-width: 460px;
+  width: 100%;
+  max-width: 510px;
   border-radius: 2rem;
   margin-right: 1.5rem;
-  box-shadow: 10px 10px 10px rgba(16, 42, 116, 0.8);
+  box-shadow: 10px 10px 10px #0d0d35;;
 
   ${mobile} {
     width: 80%;

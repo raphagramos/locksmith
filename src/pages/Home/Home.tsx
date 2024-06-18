@@ -24,14 +24,20 @@ const Home = () => {
     <HomeContainer>
       <HomeImg src="public/home.png"></HomeImg>
       <Section>
+        
         <GenericTexts>
           <Title>Atendimento</Title>
           <Subtitle>
           Lisboa , Cascais , Oeiras , Sintra e Margem Sul
           <br/>24 HORAS  
           </Subtitle>
+          </GenericTexts>
+          <ImageSection>
+          <img src="public/Chaveiro1.png" />
+        </ImageSection>
+        <GenericTexts>
           <Subtitle>
-            Casa de Chaves Don Pedro, a sua escolha para serviços de chaveiro 24.
+            Casa de Chaves Don Pedro, a sua escolha para serviços de chaveiro 24. <br/>
              Aberturas rápidas e seguras, a qualquer hora do
             dia. Sua segurança, nossa prioridade.
           </Subtitle>
@@ -41,10 +47,8 @@ const Home = () => {
               Ligue já, Chaveiro 24 horas
             </PhoneTitle>
           </PhoneLink>
-        </GenericTexts>
-        <ImageSection>
-          <img src="public/Chaveiro1.png" />
-        </ImageSection>
+          </GenericTexts>
+      
       </Section>
 
       <FirstSection>
@@ -62,10 +66,10 @@ const Home = () => {
           </TextsTwo>
           <PhoneLink to="https://wa.me/message/SXGUDW4HN3U4J1">
             <PhoneTitleTwo>
-              <img src="public/whatsapp1.png" alt="Ícone de telefone" />
-              Solicite agora um orçamento via WhatsApp{" "}
+              Solicite agora um orçamento via WhatsApp{" "}<br/><br/>
+              <img src="public/whatsapp1.png" alt="Ícone de telefone" /><br/>
             </PhoneTitleTwo>
-          </PhoneLink>
+          </PhoneLink><br/>
         </GenericTextstwo>
         <ImageSection>
           <img src="public/abrecarro.jpg" />
@@ -76,14 +80,14 @@ const Home = () => {
         <GenericTexts>
           <Title>Marcas: </Title>
           <Subtitle>Marcas que trabalhamos:</Subtitle>
-          <TextsThree>
-            Dedicação refletida em parcerias de confiança. Confie na Casa de
-            Chaves Don Pedro para a segurança da sua casa ou veículo.
-          </TextsThree>
         </GenericTexts>
         <ImageSection>
           <img src="public/empresas.webp" />
         </ImageSection>
+        <TextsThree>
+            Dedicação refletida em parcerias de confiança. Confie na Casa de
+            Chaves Don Pedro para a segurança da sua casa ou veículo.
+          </TextsThree>
       </ThirdSection>
       <BottomBar />
     </HomeContainer>

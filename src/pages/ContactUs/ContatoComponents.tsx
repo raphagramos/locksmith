@@ -14,13 +14,15 @@ const CommonTextStyles = `
 
     export const ContatoContainer = styled.div`
       ${CommonTextStyles}
-      background-color: #102a74;
+      background-color: #8a141c;
       display: flex;
+      text-decoration: none;
       flex-direction: column;
-      justify-content: center;
+      justify-content: top;
       align-items: center;
       width: 100%;
-      box-shadow: 10px 0 20px rgba(16, 42, 116, 0.8);
+      height: 55rem;
+   
       ${mobile} {
         width: 100% !important;
         justify-content: center;
@@ -52,11 +54,13 @@ export const ContactText = styled.p`
   font-family: "Kanit", sans-serif;
   font-weight: 300;
   color: white;
+  text-decoration: inherit;
   margin: 0.5rem 0;
+  
   font-size: 18px;
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
   &:hover {
-    color: #f5ba26;
+    color: #0d0d35;
     transition: color 0.5s ease;
   }
   ${mobile} {
@@ -66,7 +70,7 @@ export const ContactText = styled.p`
   }
   ${mobilemin} {
     text-align: center;
-    margin: 0
+    margin: 0;
     font-size: 10px;
   }
 `;
@@ -84,6 +88,6 @@ export const ContactLink = styled.a`
 
   &:hover {
     color: #fff;
-    transition: #f5ba26;
+    transition: #8a141c;
   }
 `;

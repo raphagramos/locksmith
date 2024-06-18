@@ -16,7 +16,7 @@ font-weight: 300;
 
 const HomeContainer = styled.div`
   ${CommonTextStyles}
-  background-color:white;
+  background-color:#8a141c;;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -28,12 +28,7 @@ const HomeContainer = styled.div`
 `;
 
 const HomeImg = styled.img`
-  margin: 0.5rem;
-  width: 100%;
   height: 300px;
-  max-width: 100%;
-  opacity: 0.8;
-   box-shadow: 10px 0 20px rgba(16, 42, 116, 0.6);
    ${mobile} {
     display:none;
   }
@@ -41,25 +36,30 @@ const HomeImg = styled.img`
 
 const Section = styled.div`
   ${CommonTextStyles}
-  margin: 0.5rem;
-  background-color:white;
-  display: flex;
+  background-color: white;
+  border-radius: 2rem;
   padding: 1.25rem;
-  width: 100%;
+  display: flex;
+  width: 95%;
+  justify-content: center;
+  align-items: center; 
+  flex-direction: column;
   ${mobile} {
-    display:block;
+    display: block;
+    width: 100%;
+    border-radius: 0rem;
     text-align: center;
   }
 `;
+
 export const FirstSection = styled.div`
   ${CommonTextStyles}
   margin-bottom: 1rem;
-  background-color: rgba(245, 171, 38,0.8);
+  background-color: #8a141c;
   display: flex;
-  
+  flex-direction: column;
+  border-radius:2rem;
   padding: 1.25rem;
-  width: 100%;
-  box-shadow: 10px 0 20px rgba(16, 42, 116, 0.8);
   ${mobile} {
     display:block;
     text-align: center;
@@ -67,14 +67,19 @@ export const FirstSection = styled.div`
 `;
 
 export const ThirdSection = styled.div`
-  ${CommonTextStyles}
-  margin: 0.5rem;
-  background-color:white;
-  display: flex;
+   ${CommonTextStyles}
+  background-color: white;
+  border-radius: 2rem;
   padding: 1.25rem;
-  width: 100%;
+  display: flex;
+  width: 95%;
+  justify-content: center;
+  align-items: center; 
+  flex-direction: column;
   ${mobile} {
-    display:block;
+    display: block;
+    width: 100%;
+    border-radius: 0rem;
     text-align: center;
   }
 `;
@@ -82,32 +87,24 @@ export const ThirdSection = styled.div`
 
 export const GenericTexts = styled.div`
   ${CommonTextStyles}
-  width: 50%;
-  color: white;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  font-weight: bold;
-  font-size: 16px;
+ display: contents;
   @media screen and (max-width: 768px) {
     width: 100%;
   }
 `;
 export const GenericTextstwo = styled.div`
   ${CommonTextStyles}
-  width: 50%;
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  text-align: center;
   @media screen and (max-width: 768px) {
     width: 100%;
   }
 `;
 export const ImageSection = styled.div`
   ${CommonTextStyles}
-  width: 50%;
   display: flex;
-  justify-content: flex-end;
+  justify-content: center;
   align-items: center;
 
   img {
@@ -134,7 +131,7 @@ export const ImageSection = styled.div`
         height: auto;
         margin-right:0.5rem;
       }  
-  }
+  }}
 `;
 
 export const Texts = styled.p`
@@ -154,7 +151,7 @@ export const TextsTwo = styled.p`
 export const TextsThree = styled.p`
   ${CommonTextStyles}
   margin-top: 2rem;
-  margin-bottom:15rem;
+
   color: rgb(16, 42, 116);
   font-size: 18px;
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
@@ -182,6 +179,7 @@ font-weight: 600;
 
 const Subtitle = styled.h2`
   ${CommonTextStyles}
+  text-align: center;
   color: rgb(16, 42, 116);
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
   font-size: 25px;
@@ -195,7 +193,7 @@ export const SubtitleCall = styled.h2`
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
   margin-top: 1rem;
   &:hover {
-    color:#f5ba26;
+    color:#8a141c;
     transition: color 0.5s ease;
   }
 `;
@@ -216,7 +214,7 @@ export const PhoneTitle = styled.h2`
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
   margin-top: 1rem;
   &:hover {
-    color:rgba(245, 171, 38,0.8);
+    color:#8a141c;
     transition: color 0.5s ease;
   }
 
@@ -256,10 +254,10 @@ export const PhoneTitleTwo = styled.h2`
 
 const PhoneLink = styled(Link)`
   ${CommonTextStyles}
-  display: flex;
+
   text-decoration: none;
+  justify-items: center;
   color: inherit;
-  margin-top: 4rem;
   border-radius: 1rem;
   gap:0.2rem;
   p {

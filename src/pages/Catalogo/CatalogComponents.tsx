@@ -6,7 +6,7 @@ WebFont.load({
     families: ['Exo Soft:600', 'Kanit'],
   },
 });
-import {mobile, mobilemin} from '../../../components/dimensions'
+import { mobile, mobilemin } from '../../../components/dimensions'
 
 
 const CommonTextStyles = `
@@ -15,7 +15,7 @@ font-weight: 300;
 `;
 
 const CatalogContainer = styled.div`
-  background-color: white;
+  background-color: #8a141c;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -65,11 +65,12 @@ export const PhoneLink = styled(Link)`
 export const CatalogFirstSection = styled.div`
   ${CommonTextStyles}
   margin: 1.5rem;
-  background-color: rgba(245,171,38, 0.8);
+  background-color: #8a141c;
   display: flex;
+  flex-direction: column;
   padding: 1.25rem;
   width: 100%;
-  box-shadow: 10px 0 20px rgba(16, 42, 116, 0.8);
+
 
   ${mobile} {
     display:block;
@@ -81,8 +82,11 @@ const CatalogSection = styled.div`
   margin: 0.5rem;
   background-color: white;
   display: flex;
+  align-items: center;
+  flex-direction: column;
+  border-radius: 2rem;
   padding: 1.25rem;
-  width: 100%;
+  width: 95%;
   ${mobile} {
     display:block;
     text-align: center;
@@ -91,12 +95,14 @@ const CatalogSection = styled.div`
 
 export const FirstCatalogSection = styled.div`
   ${CommonTextStyles}
-  margin-bottom: 0.5rem;
-  background-color: rgba(245,171,38, 0.8);
+  margin: 0.5rem;
+  background-color: #8a141c;
   display: flex;
+  align-items: center;
+  flex-direction: column;
+  border-radius: 2rem;
   padding: 1.25rem;
-  width: 100%;
-  box-shadow: 10px 0 20px rgba(16, 42, 116, 0.8);
+  width: 95%;
   ${mobile} {
     display:block;
     text-align: center;
@@ -117,11 +123,11 @@ export const ThirdCatalogSection = styled.div`
 
 export const CatalogTexts = styled.div`
   ${CommonTextStyles}
-  width: 50%;
+
   color: white;
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  text-align:center;
   font-weight: bold;
   font-size: 16px;
   @media screen and (max-width: 768px) {
@@ -136,7 +142,6 @@ color: white;
 display: flex;
 flex-direction: column;
 justify-content: center;
-margin-bottom:10rem;
 font-weight: bold;
 font-size: 16px;
 @media screen and (max-width: 768px) {
@@ -147,7 +152,6 @@ font-size: 16px;
 
 export const CatalogImageSection = styled.div`
   ${CommonTextStyles}
-  width: 50%;
   display: flex;
   justify-content: flex-end;
   align-items: center;
@@ -289,8 +293,8 @@ const CatalogImageContainer = styled.div`
 
 const CatalogImage = styled.img`
   ${CommonTextStyles}
-  width: 100%;
-  max-width: 300px;
+  width: 50rem;
+  max-width: 30rem;
   border-radius: 2rem;
   margin-right: 1.5rem;
   ${mobile} {
