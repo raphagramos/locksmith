@@ -12,20 +12,15 @@ const AboutUs = () => {
   return (
     <AboutUsContainer>
       <AboutUsSection>
-        <AboutUsImage src="public/aboutUs.png" alt="Sobre Nós" />
+        <AboutUsImage src="aboutUs.png" alt="Sobre Nós" />
         <AboutUsTexts>
-          <AboutUsTitle>Quem Somos</AboutUsTitle>
-          <AboutUsSubtitle>Conheça a Casa de Chaves Don Pedro</AboutUsSubtitle>
+          <AboutUsTitle>Quem Somos Nós?</AboutUsTitle>
+          <AboutUsSubtitle> Conheça a Abertura de Portas</AboutUsSubtitle>
           <Texts>
-            Somos uma empresa dedicada a oferecer serviços de chaveiro com
-            excelência e comprometimento. Com anos de experiência, conquistamos
-            a confiança de nossos clientes, proporcionando soluções eficientes e
-            seguras para suas necessidades.
+            Somos uma empresa especializada em serviços de chaveiro, comprometida com a excelência e a segurança.<br/> Com experiência no mercado, conquistamos a confiança de nossos clientes ao oferecer soluções eficazes e seguras para todas as suas necessidades.
           </Texts>
           <Texts>
-            Nossa equipe altamente qualificada está pronta para atendê-lo, seja
-            para situações de emergência ou serviços programados. Valorizamos a
-            satisfação do cliente e a qualidade em cada trabalho realizado.
+            Nossa equipe altamente qualificada está sempre pronta para atendê-lo, seja em situações de emergência ou para serviços programados. Priorizamos a satisfação do cliente e a qualidade em cada trabalho realizado.
           </Texts>
         </AboutUsTexts>
       </AboutUsSection>

@@ -80,7 +80,7 @@ export const CatalogFirstSection = styled.div`
 const CatalogSection = styled.div`
   ${CommonTextStyles}
   margin: 0.5rem;
-  background-color: white;
+  background-color: rgb(255, 255, 255, 0.6);
   display: flex;
   align-items: center;
   flex-direction: column;
@@ -111,7 +111,7 @@ export const FirstCatalogSection = styled.div`
 
 export const ThirdCatalogSection = styled.div`
   ${CommonTextStyles}
-  background-color: white;
+  background-color: rgb(255, 255, 255, 0.6);
   display: flex;
   padding: 1.25rem;
   width: 100%;
@@ -296,6 +296,7 @@ const CatalogImage = styled.img`
   width: 50rem;
   max-width: 30rem;
   border-radius: 2rem;
+  border:solid dimgray;
   margin-right: 1.5rem;
   ${mobile} {
   width: 45rem;

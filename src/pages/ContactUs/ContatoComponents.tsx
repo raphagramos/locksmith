@@ -25,11 +25,11 @@ const CommonTextStyles = `
    
       ${mobile} {
         width: 100% !important;
-        justify-content: center;
+        justify-content: top;
       }
       ${mobilemin} {
         width: 100% !important;
-        justify-content: center;
+        justify-content: top;
       }
     `;
 

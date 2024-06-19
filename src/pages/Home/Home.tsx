@@ -15,83 +15,78 @@ import {
   ImageSection,
   ThirdSection,
   PhoneTitle,
+  Image,
+  ImageTwo
 } from "./HomeComponents";
 import "@fontsource/montserrat";
 import React from 'react';
 import BottomBar from "../../../components/BottomBar/bottomBar";
+
 const Home = () => {
   return (
     <HomeContainer>
-      <HomeImg src="public/home.png"></HomeImg>
+      <HomeImg src="home.png"></HomeImg>
       <Section>
-        
+
         <GenericTexts>
-          <Title>Atendimento</Title>
-          <Subtitle>
-          Lisboa , Cascais , Oeiras , Sintra e Margem Sul
-          <br/>24 HORAS  
-          </Subtitle>
-          </GenericTexts>
-          <ImageSection>
-          <img src="public/Chaveiro1.png" />
+          <Title>Serviço de Chaveiro</Title>
+        </GenericTexts>
+        <ImageSection>
+          <Image src="Chaveiro1.png" />
         </ImageSection>
         <GenericTexts>
           <Subtitle>
-            Casa de Chaves Don Pedro, a sua escolha para serviços de chaveiro 24. <br/>
-             Aberturas rápidas e seguras, a qualquer hora do
-            dia. Sua segurança, nossa prioridade.
+            Abertura de Portas, sua escolha para serviços de chaveiro 24 horas. <br />
+            Aberturas rápidas e seguras, a qualquer momento do dia. Sua segurança é nossa prioridade.
           </Subtitle>
           <PhoneLink to="tel:+351961195956">
             <PhoneTitle>
-              <img src="public/telefone.png" alt="Ícone de telefone" />
-              Ligue já, Chaveiro 24 horas
+              <img src="telefone.png" alt="Ícone de telefone" />
+              Ligue agora, Chaveiro 24 horas
             </PhoneTitle>
           </PhoneLink>
-          </GenericTexts>
-      
+        </GenericTexts>
+
       </Section>
 
       <FirstSection>
         <GenericTextstwo>
-          <TitleTwo>Emergências Resolvidas</TitleTwo>
+          <TitleTwo>Emergências Solucionadas</TitleTwo>
           <TextsTwo>
-            <div>Soluções rápidas para momentos críticos.</div>
-            Esqueceu sua chave dentro do carro? Porta trancada? Atendimento 24 horas, rápido,
-            eficiente, seguro. Tranquilidade em cada emergência.
+            <div>Respostas rápidas para momentos críticos.</div>
+            Chave esquecida no carro? Porta bloqueada? Atendimento 24 horas, ágil, eficaz e seguro. Paz de espírito em cada emergência.
           </TextsTwo>
-          <TitleTwo>Qualidade Garantida</TitleTwo>
+          <TitleTwo>Excelência Garantida</TitleTwo>
           <TextsTwo>
-            Compromisso com a qualidade. Clientes satisfeitos, serviços
-            excepcionais. Seja parte da experiência Casa de Chaves Don Pedro.
+            Compromisso com a qualidade. Clientes satisfeitos, serviços excepcionais. Vivencie a experiência Abertura de Portas.
           </TextsTwo>
+
           <PhoneLink to="https://wa.me/message/SXGUDW4HN3U4J1">
             <PhoneTitleTwo>
-              Solicite agora um orçamento via WhatsApp{" "}<br/><br/>
-              <img src="public/whatsapp1.png" alt="Ícone de telefone" /><br/>
+              Solicite um orçamento via WhatsApp agora mesmo<br /><br />
+              <img src="whatsapp1.png" alt="Ícone de WhatsApp" /><br />
             </PhoneTitleTwo>
-          </PhoneLink><br/>
+          </PhoneLink><br />
         </GenericTextstwo>
         <ImageSection>
-          <img src="public/abrecarro.jpg" />
+          <Image src="abrecarro.jpg" />
         </ImageSection>
       </FirstSection>
 
       <ThirdSection>
         <GenericTexts>
-          <Title>Marcas: </Title>
-          <Subtitle>Marcas que trabalhamos:</Subtitle>
+          <Title>Marcas:</Title>
+          <Subtitle>Trabalhamos com as seguintes marcas:</Subtitle>
         </GenericTexts>
         <ImageSection>
-          <img src="public/empresas.webp" />
+          <ImageTwo src="empresas.webp" />
         </ImageSection>
         <TextsThree>
-            Dedicação refletida em parcerias de confiança. Confie na Casa de
-            Chaves Don Pedro para a segurança da sua casa ou veículo.
-          </TextsThree>
+          A nossa dedicação se reflete em parcerias de confiança. Escolha a Abertura de Portas para garantir a segurança de sua casa ou veículo.
+        </TextsThree>
       </ThirdSection>
       <BottomBar />
     </HomeContainer>
-    
   );
 };
 

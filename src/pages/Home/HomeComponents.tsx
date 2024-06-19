@@ -36,7 +36,7 @@ const HomeImg = styled.img`
 
 const Section = styled.div`
   ${CommonTextStyles}
-  background-color: white;
+  background-color: rgb(255, 255, 255, 0.6);
   border-radius: 2rem;
   padding: 1.25rem;
   display: flex;
@@ -68,7 +68,7 @@ export const FirstSection = styled.div`
 
 export const ThirdSection = styled.div`
    ${CommonTextStyles}
-  background-color: white;
+   background-color: rgb(255, 255, 255, 0.6);
   border-radius: 2rem;
   padding: 1.25rem;
   display: flex;
@@ -288,11 +288,14 @@ const PhoneLink = styled(Link)`
 const ImageContainer = styled.div``;
 
 const Image = styled.img`
-  ${CommonTextStyles}
   width: 100%;
-  max-width: 300px;
-  border-radius: 2rem;
-
+  border:solid dimgray 2px;
+  border-radius: 4rem;
+  max-width: 25rem;
+`;
+const ImageTwo = styled.img`
+  border:solid dimgray 2px;
+  max-width: 45rem;
 `;
 
 export {
@@ -303,5 +306,6 @@ export {
   PhoneLink,
   ImageContainer,
   Image,
+  ImageTwo,
   HomeImg,
 };
