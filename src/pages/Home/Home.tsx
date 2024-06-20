@@ -1,7 +1,7 @@
 import {
   HomeContainer,
   Section,
-  Title,
+  Hometitle,
   Subtitle,
   PhoneLink,
   HomeImg,
@@ -25,7 +25,7 @@ const Home = () => {
       <HomeImg src="public/home.png"></HomeImg>
       <Section>
         <GenericTexts>
-          <Title>Atendimento</Title>
+          <Hometitle>Atendimento</Hometitle>
           <Subtitle>
           Lisboa , Cascais , Oeiras , Sintra e Margem Sul
           <br/>24 HORAS  
@@ -74,7 +74,7 @@ const Home = () => {
 
       <ThirdSection>
         <GenericTexts>
-          <Title>Marcas: </Title>
+          <Hometitle>Marcas: </Hometitle>
           <Subtitle>Marcas que trabalhamos:</Subtitle>
           <TextsThree>
             Dedicação refletida em parcerias de confiança. Confie na Casa de

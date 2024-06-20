@@ -66,7 +66,7 @@ export const ContactText = styled.p`
   }
   ${mobilemin} {
     text-align: center;
-    margin: 0
+    margin: 0;
     font-size: 10px;
   }
 `;

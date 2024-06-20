@@ -1,0 +1,8 @@
+User-agent: *
+Disallow: /node_modules/
+Disallow: /static/
+Disallow: /public/
+Disallow: /build/
+Allow: /
+
+Sitemap: https://chaveirodonpedro.pt/sitemap.xml

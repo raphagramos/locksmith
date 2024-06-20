@@ -134,7 +134,7 @@ export const ImageSection = styled.div`
         height: auto;
         margin-right:0.5rem;
       }  
-  }
+  }}
 `;
 
 export const Texts = styled.p`
@@ -164,7 +164,7 @@ export const TextsThree = styled.p`
   }
 `;
 
-const Title = styled.h1`
+const Hometitle = styled.h1`
 font-family: 'Kanit', sans-serif;
 font-weight: 600;
   color: rgb(16, 42, 116);
@@ -300,7 +300,7 @@ const Image = styled.img`
 export {
   HomeContainer,
   Section,
-  Title,
+  Hometitle,
   Subtitle,
   PhoneLink,
   ImageContainer,
