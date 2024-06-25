@@ -89,6 +89,7 @@ const CatalogSection = styled.div`
   width: 95%;
   ${mobile} {
     display:block;
+    width:100%;
     text-align: center;
     }
 `;

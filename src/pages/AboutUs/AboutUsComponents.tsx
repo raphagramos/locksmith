@@ -20,6 +20,7 @@ export const AboutUsContainer = styled.div`
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  padding: 2rem;
 `;
 
 export const Texts = styled.p`

@@ -17,10 +17,7 @@ const AboutUs = () => {
           <AboutUsTitle>Quem Somos Nós?</AboutUsTitle>
           <AboutUsSubtitle> Conheça a Abertura de Portas</AboutUsSubtitle>
           <Texts>
-            Somos uma empresa especializada em serviços de chaveiro, comprometida com a excelência e a segurança.<br/> Com experiência no mercado, conquistamos a confiança de nossos clientes ao oferecer soluções eficazes e seguras para todas as suas necessidades.
-          </Texts>
-          <Texts>
-            Nossa equipe altamente qualificada está sempre pronta para atendê-lo, seja em situações de emergência ou para serviços programados. Priorizamos a satisfação do cliente e a qualidade em cada trabalho realizado.
+          Nosso time é formado por especialistas em segurança e técnicos em abertura de portas, todos treinados e atualizados com as melhores práticas do mercado. Estamos aqui para garantir que você receba o melhor atendimento e solução possível, com o mínimo de estresse e máxima eficiência.
           </Texts>
         </AboutUsTexts>
       </AboutUsSection>

@@ -36,8 +36,8 @@ const Home = () => {
         </ImageSection>
         <GenericTexts>
           <Subtitle>
-            Abertura de Portas, sua escolha para serviços de chaveiro 24 horas. <br />
-            Aberturas rápidas e seguras, a qualquer momento do dia. Sua segurança é nossa prioridade.
+            Disponibilidade de diversos serviços de chaveiro para você <br />
+            Desde aberturas rápidas até codificação de chaves de veículos.
           </Subtitle>
           <PhoneLink to="tel:+351961195956">
             <PhoneTitle>
@@ -76,13 +76,12 @@ const Home = () => {
       <ThirdSection>
         <GenericTexts>
           <Title>Marcas:</Title>
-          <Subtitle>Trabalhamos com as seguintes marcas:</Subtitle>
         </GenericTexts>
         <ImageSection>
           <ImageTwo src="empresas.webp" />
         </ImageSection>
         <TextsThree>
-          A nossa dedicação se reflete em parcerias de confiança. Escolha a Abertura de Portas para garantir a segurança de sua casa ou veículo.
+          Trabalhamos com marcas de Excelente procedência para melhor lhe atender.
         </TextsThree>
       </ThirdSection>
       <BottomBar />

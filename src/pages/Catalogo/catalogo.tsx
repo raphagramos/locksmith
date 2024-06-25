@@ -22,22 +22,22 @@ const Catalogo = () => {
     <CatalogContainer>
       <CatalogFirstSection>
         <CatalogTexts>
-          <CatalogFirstTitle>Nossos Serviços Disponíveis <br />🔒🔧</CatalogFirstTitle>
+          <CatalogFirstTitle>Catálogo de Serviços <br />🔑 🔒</CatalogFirstTitle>
 
           <CatalogSubtitleTwo>
-            Explore nossas áreas de especialização
+            Explore nossas especialidades
           </CatalogSubtitleTwo>
           <PhoneLink to="tel:+351961195956">
             <PhoneTitle>
               <img src="telefone.png" alt="Ícone de telefone" />
-              Ligue já, Chaveiro 24 horas
+              Ligue agora, 24 horas
             </PhoneTitle>
           </PhoneLink>
         </CatalogTexts>
       </CatalogFirstSection>
 
       <CatalogSection>
-        <CatalogTitle>Fechaduras para Portas Reforçadas</CatalogTitle>
+        <CatalogTitle>Fechaduras para Portas Blindadas</CatalogTitle>
         <CatalogImageContainer>
           <CatalogImage src="fechadura.jpeg" alt="Fechadura Blindada" />
         </CatalogImageContainer>
@@ -55,7 +55,7 @@ const Catalogo = () => {
         </CatalogImageContainer>
         <CatalogTextsTwo>
           <CatalogSubtitleTwo>
-            Troca de fechaduras, aberturas com trinco e com voltas, ajuste e lubrificação.
+           Temos diversos tipos de fechaduras com trancas para lhe deixar seguro.
           </CatalogSubtitleTwo>
         </CatalogTextsTwo>
       </FirstCatalogSection>
@@ -68,9 +68,6 @@ const Catalogo = () => {
           <CatalogImage src="fechaele.jpeg" alt="Fechadura Elétrica" />
         </CatalogImageContainer>
         <CatalogTexts>
-          <CatalogSubtitle>
-            Troca de fechaduras, aberturas com trinco e com voltas, ajuste e lubrificação.
-          </CatalogSubtitle>
         </CatalogTexts>
       </CatalogSection>
     </CatalogContainer>

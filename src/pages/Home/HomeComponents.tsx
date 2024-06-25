@@ -57,10 +57,12 @@ export const FirstSection = styled.div`
   margin-bottom: 1rem;
   background-color: #8a141c;
   display: flex;
+  width: 95%;
   flex-direction: column;
   border-radius:2rem;
-  padding: 1.25rem;
+  padding: 1.5rem;
   ${mobile} {
+    width: 100%;
     display:block;
     text-align: center;
   }
@@ -109,7 +111,7 @@ export const ImageSection = styled.div`
 
   img {
     border-radius: 0.5rem;
-    width: 35rem;
+    width: 45rem;
     height: auto;
   }
   ${mobile} {
@@ -118,7 +120,7 @@ export const ImageSection = styled.div`
     
     img {
       border-radius: 0.5rem;
-      width: 23.5rem;
+      width: 25rem;
       height: auto;
     }
     ${mobilemin} {
@@ -127,7 +129,7 @@ export const ImageSection = styled.div`
       
       img {
         border-radius: 0.5rem;
-        width: 19rem;
+        width: 22rem;
         height: auto;
         margin-right:0.5rem;
       }  
@@ -295,7 +297,7 @@ const Image = styled.img`
 `;
 const ImageTwo = styled.img`
   border:solid dimgray 2px;
-  max-width: 45rem;
+  max-width: 55rem;
 `;
 
 export {
