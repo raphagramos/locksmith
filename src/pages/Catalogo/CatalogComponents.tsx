@@ -302,8 +302,10 @@ const CatalogImage = styled.img`
   ${mobile} {
   width: 45rem;
   max-width: 380px;
+  margin-right: 0rem;
     }
     ${mobilemin} {
+      margin-right: 0rem;
       width: 20rem;
       max-width: 380px;
       margin-bottom:2rem;
