@@ -50,6 +50,11 @@ const Section = styled.div`
     border-radius: 0rem;
     text-align: center;
   }
+   ${mobilemin} {
+    display: block;
+    width: 100%;
+    border-radius: 0rem;
+    text-align: center;}
 `;
 
 export const FirstSection = styled.div`
@@ -129,9 +134,8 @@ export const ImageSection = styled.div`
       
       img {
         border-radius: 0.5rem;
-        width: 22rem;
+        width: 20rem;
         height: auto;
-        margin-right:0.5rem;
       }  
   }}
 `;

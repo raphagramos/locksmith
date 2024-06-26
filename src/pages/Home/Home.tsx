@@ -35,16 +35,17 @@ const Home = () => {
           <Image src="Chaveiro1.png" />
         </ImageSection>
         <GenericTexts>
-          <Subtitle>
-            Disponibilidade de diversos serviços de chaveiro para você <br />
-            Desde aberturas rápidas até codificação de chaves de veículos.
-          </Subtitle>
-          <PhoneLink to="tel:+351961195956">
+        <PhoneLink to="tel:+351961195956">
             <PhoneTitle>
               <img src="telefone.png" alt="Ícone de telefone" />
               Ligue agora, Chaveiro 24 horas
             </PhoneTitle>
           </PhoneLink>
+          <Subtitle>
+            Disponibilidade de diversos serviços de chaveiro para você <br />
+            Desde aberturas rápidas até codificação de chaves de veículos.
+          </Subtitle>
+         
         </GenericTexts>
 
       </Section>
