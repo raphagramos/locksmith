@@ -10,9 +10,9 @@ const Contact: React.FC = () => {
       <Link to="tel:+351966799623" className='second-text'>
       <ContactText>351 966 799 623</ContactText>
       </Link>
-      <ContactText>Email: aberturas24h.info@gmail.com</ContactText>
+      <ContactText>Email: locksmith24hourslisbon@gmail.com</ContactText>
    
-        <ContactLink href="https://wa.me/message/SXGUDW4HN3U4J1" target="_blank" rel="noopener noreferrer">
+        <ContactLink href="https://wa.me/+351966799623" target="_blank" rel="noopener noreferrer">
         <ContactText><img src="whatsapp1.png" alt="Ícone de telefone" /> Ligue Já para nossso WhatsApp</ContactText> 
         </ContactLink>
     
