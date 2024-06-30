@@ -24,9 +24,9 @@ const PopUp: React.FC = () => {
       >
         <div className="text-center">
           <HiOutlineExclamationCircle className="mx-auto mb-4 h-14 w-14 text-blue-500 dark:text-blue-300" />
-          <h3 className="mb-5 text-lg font-normal text-white dark:text-gray-400">
+          <h1 className="mb-5 text-lg font-normal text-white dark:text-gray-400">
             Precisa ligar agora?
-          </h3>
+          </h1>
           <h3 className="mb-5 text-lg font-normal text-white dark:text-gray-400">
             Atendemos Lisboa , Cascais , Oeiras , Sintra e Margem Sul
             <br/>

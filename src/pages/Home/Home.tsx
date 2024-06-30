@@ -22,7 +22,7 @@ import BottomBar from "../../../components/BottomBar/bottomBar";
 const Home = () => {
   return (
     <HomeContainer>
-      <HomeImg src="public/home.png"></HomeImg>
+      <HomeImg src="home.png"></HomeImg>
       <Section>
         <GenericTexts>
           <Hometitle>Atendimento</Hometitle>
@@ -37,13 +37,13 @@ const Home = () => {
           </Subtitle>
           <PhoneLink to="tel:+351961195956">
             <PhoneTitle>
-              <img src="public/telefone.png" alt="Ícone de telefone" />
+              <img src="telefone.png" alt="Ícone de telefone" />
               Ligue já, Chaveiro 24 horas
             </PhoneTitle>
           </PhoneLink>
         </GenericTexts>
         <ImageSection>
-          <img src="public/Chaveiro1.png" />
+          <img src="Chaveiro1.png" />
         </ImageSection>
       </Section>
 
@@ -62,13 +62,13 @@ const Home = () => {
           </TextsTwo>
           <PhoneLink to="https://wa.me/message/SXGUDW4HN3U4J1">
             <PhoneTitleTwo>
-              <img src="public/whatsapp1.png" alt="Ícone de telefone" />
+              <img src="whatsapp1.png" alt="Ícone de telefone" />
               Solicite agora um orçamento via WhatsApp{" "}
             </PhoneTitleTwo>
           </PhoneLink>
         </GenericTextstwo>
         <ImageSection>
-          <img src="public/abrecarro.jpg" />
+          <img src="abrecarro.jpg" />
         </ImageSection>
       </FirstSection>
 
@@ -82,7 +82,7 @@ const Home = () => {
           </TextsThree>
         </GenericTexts>
         <ImageSection>
-          <img src="public/empresas.webp" />
+          <img src="empresas.webp" />
         </ImageSection>
       </ThirdSection>
       <BottomBar />
