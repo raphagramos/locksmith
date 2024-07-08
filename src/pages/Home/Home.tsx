@@ -35,7 +35,7 @@ const Home = () => {
           <Image src="Chaveiro1.png" />
         </ImageSection>
         <GenericTexts>
-        <PhoneLink to="tel:+351961195956">
+        <PhoneLink to="tel:+351966799623">
             <PhoneTitle>
               <img src="telefone.png" alt="Ícone de telefone" />
               Ligue agora, Chaveiro 24 horas

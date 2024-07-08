@@ -27,7 +27,7 @@ const Catalogo = () => {
           <CatalogSubtitleTwo>
             Explore nossas especialidades
           </CatalogSubtitleTwo>
-          <PhoneLink to="tel:+351961195956">
+          <PhoneLink to="tel:+351966799623">
             <PhoneTitle>
               <img src="telefone.png" alt="Ícone de telefone" />
               Ligue agora, 24 horas
