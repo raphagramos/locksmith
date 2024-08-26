@@ -29,7 +29,7 @@ color: rgb(16, 42, 116);
 
   ${mobile} {
     width:105%;
-    background-color: #white;
+    background-color: white;
     transition: background-color 0.3s ease, box-shadow 0.3s ease;
     text-align: center;
     &.expanded {
@@ -38,6 +38,13 @@ color: rgb(16, 42, 116);
       left: 0;
       right: 0;
     }
+  
   }
-  }
+  
+`;
+export const LanguageIcons = styled.div`
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  margin-left: auto;
 `;

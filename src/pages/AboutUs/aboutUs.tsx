@@ -8,25 +8,19 @@ import {
   Texts,
 } from "./AboutUsComponents";
 import React from 'react';
+import { useTranslation } from 'react-i18next';
+
 const AboutUs = () => {
+  const { t } = useTranslation();
   return (
     <AboutUsContainer>
       <AboutUsSection>
-        <AboutUsImage src="aboutUs.jpeg" alt="Sobre Nós" />
+        <AboutUsImage src="aboutUs.jpeg" alt={t('aboutUs.alt')} />
         <AboutUsTexts>
-          <AboutUsTitle>Quem Somos</AboutUsTitle>
-          <AboutUsSubtitle>Conheça a Casa de Chaves Don Pedro</AboutUsSubtitle>
-          <Texts>
-            Somos uma empresa dedicada a oferecer serviços de chaveiro com
-            excelência e comprometimento. Com anos de experiência, conquistamos
-            a confiança de nossos clientes, proporcionando soluções eficientes e
-            seguras para suas necessidades.
-          </Texts>
-          <Texts>
-            Nossa equipe altamente qualificada está pronta para atendê-lo, seja
-            para situações de emergência ou serviços programados. Valorizamos a
-            satisfação do cliente e a qualidade em cada trabalho realizado.
-          </Texts>
+          <AboutUsTitle>{t('aboutUs.title')}</AboutUsTitle>
+          <AboutUsSubtitle>{t('aboutUs.subtitle')}</AboutUsSubtitle>
+          <Texts>{t('aboutUs.description1')}</Texts>
+          <Texts>{t('aboutUs.description2')}</Texts>
         </AboutUsTexts>
       </AboutUsSection>
     </AboutUsContainer>

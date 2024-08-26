@@ -16,20 +16,20 @@ import {
   CatalogTitleTwo,
 } from "./CatalogComponents";
 import React from 'react';
+import { useTranslation } from 'react-i18next';
+
 const Catalogo = () => {
+  const { t } = useTranslation();
   return (
     <CatalogContainer>
       <CatalogFirstSection>
         <CatalogTexts>
-          <CatalogFirstTitle>Nossos Serviços <br/>🔒🔧</CatalogFirstTitle>
-
-          <CatalogSubtitleTwo>
-            Saiba mais sobre as nossas especialidades
-          </CatalogSubtitleTwo>
+          <CatalogFirstTitle>{t('catalog.servicesTitle')}</CatalogFirstTitle>
+          <CatalogSubtitleTwo>{t('catalog.servicesSubtitle')}</CatalogSubtitleTwo>
           <PhoneLink to="tel:+351961195956">
             <PhoneTitle>
-              <img src="telefone.png" alt="Ícone de telefone" />
-              Ligue já, Chaveiro 24 horas
+              <img src="telefone.png" alt={t('catalog.phoneIconAlt')} />
+              {t('catalog.phoneCallText')}
             </PhoneTitle>
           </PhoneLink>
         </CatalogTexts>
@@ -37,42 +37,31 @@ const Catalogo = () => {
 
       <CatalogSection>
         <CatalogImageContainer>
-          <CatalogImage src="fechadura.jpeg" alt="Fechadura Blindada" />
+          <CatalogImage src="fechadura.jpeg" alt={t('catalog.lockImageAlt')} />
         </CatalogImageContainer>
         <CatalogTexts>
-          <CatalogTitle>Fechaduras para portas Blindadas</CatalogTitle>
-          <CatalogSubtitle>
-            Trocas de fechaduras, aberturas no trinco e com voltas, manutenções,
-            troca de segredos, canhões e lubrificação.
-          </CatalogSubtitle>
+          <CatalogTitle>{t('catalog.lockTitle')}</CatalogTitle>
+          <CatalogSubtitle>{t('catalog.lockDescription')}</CatalogSubtitle>
         </CatalogTexts>
       </CatalogSection>
 
       <FirstCatalogSection>
         <CatalogImageContainer>
-          <CatalogImage src="fecha2e4.jpeg" alt="Fechadura 2 e 4 trancas" />
+          <CatalogImage src="fecha2e4.jpeg" alt={t('catalog.lock2and4ImageAlt')} />
         </CatalogImageContainer>
         <CatalogTextsTwo>
-          <CatalogTitleTwo>Fechaduras 2 e 4 trancas</CatalogTitleTwo>
-          <CatalogSubtitleTwo>
-            Troca de fechaduras, aberturas no trinco e com voltas, afinação e
-            lubrificação.
-          </CatalogSubtitleTwo>
+          <CatalogTitleTwo>{t('catalog.lock2and4Title')}</CatalogTitleTwo>
+          <CatalogSubtitleTwo>{t('catalog.lock2and4Description')}</CatalogSubtitleTwo>
         </CatalogTextsTwo>
       </FirstCatalogSection>
 
       <CatalogSection>
         <CatalogImageContainer>
-          <CatalogImage src="fechaele.jpeg" alt="Fechadura 2 e 4 trancas" />
+          <CatalogImage src="fechaele.jpeg" alt={t('catalog.electricLockImageAlt')} />
         </CatalogImageContainer>
         <CatalogTexts>
-          <CatalogTitle>
-             Fechadura Elétrica? Conte Conosco! 
-          </CatalogTitle>
-          <CatalogSubtitle>
-            Troca de fechaduras, aberturas no trinco e com voltas, afinação e
-            lubrificação.
-          </CatalogSubtitle>
+          <CatalogTitle>{t('catalog.electricLockTitle')}</CatalogTitle>
+          <CatalogSubtitle>{t('catalog.electricLockDescription')}</CatalogSubtitle>
         </CatalogTexts>
       </CatalogSection>
     </CatalogContainer>

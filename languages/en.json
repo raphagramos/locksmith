@@ -1,0 +1,85 @@
+{
+    "aboutUs": {
+      "alt": "About Us",
+      "title": "Who We Are",
+      "subtitle": "Get to Know Casa de Chaves Don Pedro",
+      "description1": "We are a company dedicated to offering locksmith services with excellence and commitment. With years of experience, we have earned the trust of our customers by providing efficient and safe solutions for their needs.",
+      "description2": "Our highly qualified team is ready to serve you, whether for emergency situations or scheduled services. We value customer satisfaction and quality in every job we do."
+    },
+    
+        "catalog": {
+          "servicesTitle": "Our Services 🔒🔧",
+          "servicesSubtitle": "Learn more about our specialties",
+          "phoneIconAlt": "Phone icon",
+          "phoneCallText": "Call now, 24-hour Locksmith",
+          "lockImageAlt": "Reinforced Lock",
+          "lockTitle": "Locks for Reinforced Doors",
+          "lockDescription": "Lock replacements, unlocking with or without turns, maintenance, code changes, cylinders, and lubrication.",
+          "lock2and4ImageAlt": "2 and 4 Locks",
+          "lock2and4Title": "2 and 4 Lock Systems",
+          "lock2and4Description": "Lock replacements, unlocking with or without turns, adjustment, and lubrication.",
+          "electricLockImageAlt": "Electric Lock",
+          "electricLockTitle": "Electric Lock? Count on Us!",
+          "electricLockDescription": "Lock replacements, unlocking with or without turns, adjustment, and lubrication."
+        },
+        "contact": {
+          "title": "Contact",
+          "phone": "351 961 195 956",
+          "email": "Email:",
+          "phoneIconAlt": "Phone icon",
+          "whatsappText": "Call us now on WhatsApp"
+        },
+        "home": {
+          "mainImageAlt": "Main image",
+          "serviceTitle": "Service",
+          "serviceLocations": "Lisbon, Cascais, Oeiras, Sintra, and the South Bank",
+          "serviceHours": "24 HOURS",
+          "serviceDescription": "Casa de Chaves Don Pedro, your choice for 24-hour locksmith services. Quick and safe openings, anytime of the day. Your security is our priority.",
+          "phoneIconAlt": "Phone icon",
+          "phoneCallText": "Call now, 24-hour Locksmith",
+          "locksmithImageAlt": "Locksmith",
+          "emergenciesTitle": "Emergencies Solved",
+          "emergenciesDescription": "Quick solutions for critical moments. Locked your keys in the car? Door locked? 24-hour service, quick, efficient, and safe. Peace of mind in every emergency.",
+          "qualityTitle": "Guaranteed Quality",
+          "qualityDescription": "Commitment to quality. Satisfied clients, exceptional services. Be part of the Casa de Chaves Don Pedro experience.",
+          "whatsappIconAlt": "WhatsApp icon",
+          "whatsappText": "Request a quote now via WhatsApp",
+          "carUnlockImageAlt": "Car Unlocking",
+          "brandsTitle": "Brands:",
+          "brandsSubtitle": "Brands we work with:",
+          "brandsDescription": "Dedication reflected in trusted partnerships. Trust Casa de Chaves Don Pedro for the security of your home or vehicle.",
+          "brandsImageAlt": "Brands"
+        },
+      
+        
+           "navbar": {
+          "home": "Home",
+          "catalog": "Catalog",
+          "aboutUs": "About Us",
+          "contactUs": "Contact",
+          "whatsappLink": "Access Our WhatsApp",
+          "logoAlt": "Logo",
+          "whatsappAlt": "Phone Icon",
+          "toggleLanguageButton": "Switch Language"
+        },
+        
+        "bottomBar": {
+          "linkText": "Online Dispute Resolution"
+        },
+            "topBar": {
+                "professionalsText": "Professionals in Locks",
+                "phoneNumber": "351 961 195 956",
+                "availabilityText": "24h/day, every day"
+              },
+              "popUp": {
+                "title": "Need to call now?",
+                "subtitle": "We serve Lisbon, Cascais, Oeiras, Sintra, and Margem Sul",
+                "hours": "24 HOURS",
+                "description": "If you need immediate assistance, contact us via WhatsApp.",
+                "declineButton": "No, thanks",
+                "acceptButton": "Yes, call now"
+              }
+          
+
+  }
+  

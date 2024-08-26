@@ -1,0 +1,78 @@
+{
+    "aboutUs": {
+      "alt": "Sobre Nós",
+      "title": "Quem Somos",
+      "subtitle": "Conheça a Casa de Chaves Don Pedro",
+      "description1": "Somos uma empresa dedicada a oferecer serviços de chaveiro com excelência e comprometimento. Com anos de experiência, conquistamos a confiança de nossos clientes, proporcionando soluções eficientes e seguras para suas necessidades.",
+      "description2": "Nossa equipe altamente qualificada está pronta para atendê-lo, seja para situações de emergência ou serviços programados. Valorizamos a satisfação do cliente e a qualidade em cada trabalho realizado."
+    },
+    "catalog": {
+      "servicesTitle": "Nossos Serviços 🔒🔧",
+      "servicesSubtitle": "Saiba mais sobre as nossas especialidades",
+      "phoneIconAlt": "Ícone de telefone",
+      "phoneCallText": "Ligue já, Chaveiro 24 horas",
+      "lockImageAlt": "Fechadura Blindada",
+      "lockTitle": "Fechaduras para portas Blindadas",
+      "lockDescription": "Trocas de fechaduras, aberturas no trinco e com voltas, manutenções, troca de segredos, canhões e lubrificação.",
+      "lock2and4ImageAlt": "Fechadura 2 e 4 trancas",
+      "lock2and4Title": "Fechaduras 2 e 4 trancas",
+      "lock2and4Description": "Troca de fechaduras, aberturas no trinco e com voltas, afinação e lubrificação.",
+      "electricLockImageAlt": "Fechadura Elétrica",
+      "electricLockTitle": "Fechadura Elétrica? Conte Conosco!",
+      "electricLockDescription": "Troca de fechaduras, aberturas no trinco e com voltas, afinação e lubrificação."
+    },
+    "contact": {
+      "title": "Contato",
+      "phone": "351 961 195 956",
+      "email": "Email:",
+      "phoneIconAlt": "Ícone de telefone",
+      "whatsappText": "Ligue Já para nossso WhatsApp"
+    },
+    "home": {
+      "mainImageAlt": "Imagem principal",
+      "serviceTitle": "Atendimento",
+      "serviceLocations": "Lisboa , Cascais , Oeiras , Sintra e Margem Sul",
+      "serviceHours": "24 HORAS",
+      "serviceDescription": "Casa de Chaves Don Pedro, a sua escolha para serviços de chaveiro 24. Aberturas rápidas e seguras, a qualquer hora do dia. Sua segurança, nossa prioridade.",
+      "phoneIconAlt": "Ícone de telefone",
+      "phoneCallText": "Ligue já, Chaveiro 24 horas",
+      "locksmithImageAlt": "Chaveiro",
+      "emergenciesTitle": "Emergências Resolvidas",
+      "emergenciesDescription": "Soluções rápidas para momentos críticos. Esqueceu sua chave dentro do carro? Porta trancada? Atendimento 24 horas, rápido, eficiente, seguro. Tranquilidade em cada emergência.",
+      "qualityTitle": "Qualidade Garantida",
+      "qualityDescription": "Compromisso com a qualidade. Clientes satisfeitos, serviços excepcionais. Seja parte da experiência Casa de Chaves Don Pedro.",
+      "whatsappIconAlt": "Ícone de WhatsApp",
+      "whatsappText": "Solicite agora um orçamento via WhatsApp",
+      "carUnlockImageAlt": "Abertura de Carro",
+      "brandsTitle": "Marcas:",
+      "brandsSubtitle": "Marcas que trabalhamos:",
+      "brandsDescription": "Dedicação refletida em parcerias de confiança. Confie na Casa de Chaves Don Pedro para a segurança da sua casa ou veículo.",
+      "brandsImageAlt": "Marcas"
+    },
+      
+        
+    "navbar": {
+      "home": "Início",
+      "catalog": "Catálogo",
+      "aboutUs": "Sobre nós",
+      "contactUs": "Contato",
+      "whatsappLink": "Acesse Nosso WhatsApp",
+      "logoAlt": "Logo",
+      "whatsappAlt": "Ícone de telefone",
+      "toggleLanguageButton": "Trocar idioma"
+    },
+    
+        "bottomBar": {
+          "linkText": "Resolução de Disputas Online"
+        },
+        "popUp": {
+            "title": "Precisa ligar agora?",
+            "subtitle": "Atendemos Lisboa, Cascais, Oeiras, Sintra e Margem Sul",
+            "hours": "24 HORAS",
+            "description": "Se você precisa de assistência imediata, entre em contato conosco pelo WhatsApp.",
+            "declineButton": "Não, obrigado",
+            "acceptButton": "Sim, ligar agora"
+          }
+      
+  }
+  
