@@ -65,6 +65,11 @@
         "bottomBar": {
           "linkText": "Resolução de Disputas Online"
         },
+        "topBar": {
+  "professionalsText": "Profissionais em Fechaduras",
+  "phoneNumber": "351 961 195 956",
+  "availabilityText": "24h/dia, todos os dias"
+},
         "popUp": {
             "title": "Precisa ligar agora?",
             "subtitle": "Atendemos Lisboa, Cascais, Oeiras, Sintra e Margem Sul",
