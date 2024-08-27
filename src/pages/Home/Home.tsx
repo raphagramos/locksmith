@@ -15,6 +15,7 @@ import {
   ImageSection,
   ThirdSection,
   PhoneTitle,
+  LanguageIconsMobile,
 } from "./HomeComponents";
 import "@fontsource/montserrat";
 import React from 'react';
@@ -22,12 +23,29 @@ import BottomBar from "../../../components/BottomBar/bottomBar";
 import { useTranslation } from 'react-i18next';
 
 const Home = () => {
-  const { t } = useTranslation();
+  const { t,i18n } = useTranslation();
+  const toggleLanguage = (language: string) => {
+    i18n.changeLanguage(language);
+  };
   return (
     <HomeContainer>
       <HomeImg src="home.png" alt={t('home.mainImageAlt')} />
       <Section>
         <GenericTexts>
+          <LanguageIconsMobile>
+          <img 
+              style={{ width: "2rem", cursor: "pointer", margin: "0 0.5rem" }} 
+              src='https://upload.wikimedia.org/wikipedia/commons/5/5c/Flag_of_Portugal.svg' 
+              onClick={() => toggleLanguage('ptPT')} 
+              alt="Portuguese" 
+            />
+            <img 
+              style={{ width: "2rem", cursor: "pointer", margin: "0 0.5rem" }} 
+              src='https://upload.wikimedia.org/wikipedia/commons/a/a4/Flag_of_the_United_States.svg' 
+              onClick={() => toggleLanguage('en')} 
+              alt="English" 
+            />
+          </LanguageIconsMobile>
           <Hometitle>{t('home.serviceTitle')}</Hometitle>
           <Subtitle>
             {t('home.serviceLocations')}<br/>{t('home.serviceHours')}

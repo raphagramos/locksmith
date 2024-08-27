@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 import { Link } from 'react-router-dom';
 import WebFont from 'webfontloader';
-import {mobile,mobilemin} from '../../../components/dimensions'
+import {desktop, mobile,mobilemin} from '../../../components/dimensions'
 WebFont.load({
   google: {
     families: ['Exo Soft:600', 'Kanit'],
@@ -307,3 +307,14 @@ export {
   Image,
   HomeImg,
 };
+export const LanguageIconsMobile = styled.div`
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  margin-left: auto;
+  ${desktop} {
+      display:none;
+      font-size: 20px;
+      margin-right:1.5rem;
+    }
+`;

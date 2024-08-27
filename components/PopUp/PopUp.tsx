@@ -3,10 +3,12 @@ import { Modal, Button } from "flowbite-react";
 import { HiOutlineExclamationCircle } from "react-icons/hi";
 import { FaWhatsapp } from "react-icons/fa";
 import { useState } from "react";
-import "./custombuttom.css"
+import { useTranslation } from "react-i18next";
+import "./custombuttom.css";
 
 const PopUp: React.FC = () => {
   const [showModal, setShowModal] = useState(true);
+  const { t } = useTranslation();
 
   return (
     <Modal dismissible show={showModal} onClose={() => setShowModal(false)}>
@@ -24,17 +26,17 @@ const PopUp: React.FC = () => {
       >
         <div className="text-center">
           <HiOutlineExclamationCircle className="mx-auto mb-4 h-14 w-14 text-blue-500 dark:text-blue-300" />
-          <h2 style={{fontSize:'40px'}}className="mb-5 text-lg font-normal text-white dark:text-gray-400">
-            Precisa ligar agora?
+          <h2 style={{ fontSize: '40px' }} className="mb-5 text-lg font-normal text-white dark:text-gray-400">
+            {t('popUp.title')}
           </h2>
           <h3 className="mb-5 text-lg font-normal text-white dark:text-gray-400">
-            Atendemos Lisboa , Cascais , Oeiras , Sintra e Margem Sul
-            <br/>
-            24 HORAS  
+            {t('popUp.subtitle')}
+            <br />
+            {t('popUp.hours')}
           </h3>
       
           <p className="text-gray-600 dark:text-gray-300">
-            Se você precisa de assistência imediata, entre em contato conosco pelo WhatsApp.
+            {t('popUp.description')}
           </p>
           <div className="flex justify-center gap-4 mt-4">
             <Button
@@ -42,7 +44,7 @@ const PopUp: React.FC = () => {
               onClick={() => setShowModal(false)}
               style={{ marginBottom: "5px", marginRight: "3px" }}
             >
-              Não, obrigado
+              {t('popUp.declineButton')}
             </Button>
             <a
               href="https://wa.me/message/SXGUDW4HN3U4J1"
@@ -50,10 +52,10 @@ const PopUp: React.FC = () => {
               rel="noopener noreferrer"
             >
               <Button
-                  className="custom-button-green text-blue-500 hover:text-blue-600 px-4 py-2 rounded"
+                className="custom-button-green text-blue-500 hover:text-blue-600 px-4 py-2 rounded"
                 onClick={() => setShowModal(false)}
               >
-                <FaWhatsapp className="mr-2" /> Sim, ligar agora
+                <FaWhatsapp className="mr-2" /> {t('popUp.acceptButton')}
               </Button>
             </a>
           </div>
