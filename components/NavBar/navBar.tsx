@@ -35,7 +35,7 @@ const Navbar: React.FC = () => {
   };
 
   return (
-    <CNavbar style={{zIndex:"100000"}} expand="lg" colorScheme="light" className="bg-white">
+    <CNavbar expand="lg" colorScheme="light" className="bg-white">
       <CContainer fluid>
         <NavLinkWithRouter to="/">
           <span className="navbar-brand">
