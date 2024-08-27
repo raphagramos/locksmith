@@ -47,4 +47,7 @@ export const LanguageIcons = styled.div`
   align-items: center;
   justify-content: flex-end;
   margin-left: auto;
+  ${mobile}{
+    display: none;
+  }
 `;
