@@ -6,9 +6,8 @@ import Catalogo from "./pages/Catalogo/catalogo.tsx";
 import AboutUs from "./pages/AboutUs/aboutUs.tsx";
 import ContactUs from "./pages/ContactUs/contactUs.tsx";
 import Home from "./pages/Home/Home.tsx";
-import TopBar from "../components/TopBar/topBar.tsx";
 import React from "react";
-
+import '../i18n.js';
 const App = () => {
   
 
@@ -22,7 +21,6 @@ const App = () => {
           <Route path="/aboutUs" element={<AboutUs />} />
           <Route path="/contactUs" element={<ContactUs />} />
         </Routes>
-     
     </Router>
   );
 };

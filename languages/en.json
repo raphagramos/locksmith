@@ -1,0 +1,64 @@
+{
+    "aboutUs": {
+      "title": "Who Are We?",
+      "subtitle": "Meet Abertura de Portas",
+      "text": "Our team is made up of security experts and door opening technicians, all trained and up-to-date with the best market practices. We are here to ensure you receive the best service and solution possible, with minimal stress and maximum efficiency."
+    },
+    "catalog": {
+      "title": "Service Catalog 🔑 🔒",
+      "subtitle": "Explore our specialties",
+      "phoneTitle": "Call now, 24 hours",
+      "section1": {
+        "title": "Locks for Armored Doors",
+        "subtitle": "Lock replacement, opening with latch and turns, maintenance, code change, cylinders, and lubrication."
+      },
+      "section2": {
+        "title": "2 and 4 Bolt Locks",
+        "subtitle": "We have various types of bolt locks to keep you secure."
+      },
+      "section3": {
+        "title": "Need an Electric Lock? Count on us!"
+      }
+    },
+    "contact": {
+      "title": "Contact",
+      "phone": "351 966 799 623",
+      "email": "locksmith24hourslisbon@gmail.com",
+      "whatsapp": "Call us on WhatsApp Now"
+    },
+    "home": {
+      "title": "Locksmith Service",
+      "subtitle": "Availability of various locksmith services for you. ",
+      "subtitle1":"From quick openings to vehicle key coding.",
+      "phoneTitle": "Call now, 24 hours",
+      "emergency": {
+        "title": "Emergency Solutions",
+        "emergencysolve":"Fast answer for critical moments",
+        "text": "Forgot your key in the car? Locked door? 24-hour service, fast, efficient, and secure. Peace of mind in every emergency."
+      },
+      "excellence": {
+        "title": "Guaranteed Excellence",
+        "text": "Commitment to quality. Satisfied customers, exceptional services. Experience the Abertura de Portas experience."
+      },
+      "whatsapp": "Request a quote via WhatsApp now",
+      "brandstitle":"Brands:",
+      "brands": "We work with top-quality brands to serve you better."
+    },
+    "topBar": {
+      "professionals": "Lock Professionals",
+      "phone": "351 966 799 623",
+      "availability": "24h/day, every day"
+    },
+    "bottomBar": {
+      "odr": "Online Dispute Resolution"
+    },
+    
+        "navbar": {
+          "home": "Home",
+          "catalog": "Catalog",
+          "aboutUs": "About Us",
+          "contact": "Contact",
+          "whatsapp": "Access Our WhatsApp"
+        }  
+  }
+  

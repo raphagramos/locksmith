@@ -1,15 +1,19 @@
 import './topBar.css';
 import { Link } from 'react-router-dom';
 import React from 'react';
+import { useTranslation } from 'react-i18next';
+
 const TopBar = () => {
+  const { t } = useTranslation();
+
   return (
     <div className='bar-body'>
-      <p className='first-text'>Profissionais em Fechaduras</p>
-      
+      <p className='first-text'>{t('topBar.professionals')}</p>
+
       <Link to="tel:+351966799623" className='second-text'>
-      <p className='link-text'>351 966 799 623</p>
+        <p className='link-text'>{t('topBar.phone')}</p>
       </Link>
-      <p className='second-text'>24h/dia, todos os dias</p>
+      <p className='second-text'>{t('topBar.availability')}</p>
     </div>
   );
 };

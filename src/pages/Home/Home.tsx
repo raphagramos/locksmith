@@ -16,55 +16,52 @@ import {
   ThirdSection,
   PhoneTitle,
   Image,
-  ImageTwo
+  ImageTwo,
+  PhoneDiv
 } from "./HomeComponents";
 import "@fontsource/montserrat";
 import React from 'react';
 import BottomBar from "../../../components/BottomBar/bottomBar";
+import { useTranslation } from 'react-i18next';
 
 const Home = () => {
+  const { t } = useTranslation();
+
   return (
     <HomeContainer>
       <HomeImg src="home.png"></HomeImg>
       <Section>
-
         <GenericTexts>
-          <Title>Serviço de Chaveiro</Title>
+          <Title>{t('home.title')}</Title>
         </GenericTexts>
         <ImageSection>
           <Image src="Chaveiro1.png" />
         </ImageSection>
         <GenericTexts>
-        <PhoneLink to="tel:+351966799623">
+          <PhoneDiv >
+          <PhoneLink to="tel:+351966799623">
             <PhoneTitle>
               <img src="telefone.png" alt="Ícone de telefone" />
-              Ligue agora, Chaveiro 24 horas
+              {t('home.phoneTitle')}
             </PhoneTitle>
           </PhoneLink>
-          <Subtitle>
-            Disponibilidade de diversos serviços de chaveiro para você <br />
-            Desde aberturas rápidas até codificação de chaves de veículos.
-          </Subtitle>
-         
+          </PhoneDiv>
+          <Subtitle>{t('home.subtitle')}<br/>{t('home.subtitle1')}</Subtitle>
         </GenericTexts>
-
       </Section>
 
       <FirstSection>
         <GenericTextstwo>
-          <TitleTwo>Emergências Solucionadas</TitleTwo>
-          <TextsTwo>
-            <div>Respostas rápidas para momentos críticos.</div>
-            Chave esquecida no carro? Porta bloqueada? Atendimento 24 horas, ágil, eficaz e seguro. Paz de espírito em cada emergência.
-          </TextsTwo>
-          <TitleTwo>Excelência Garantida</TitleTwo>
-          <TextsTwo>
-            Compromisso com a qualidade. Clientes satisfeitos, serviços excepcionais. Vivencie a experiência Abertura de Portas.
-          </TextsTwo>
+          <TitleTwo>{t('home.emergency.title')}</TitleTwo>
+          <TextsTwo>{t('home.emergency.emergencysolve')}<br/>
+        {t('home.emergency.text')}</TextsTwo>
+          <TitleTwo>{t('home.excellence.title')}</TitleTwo>
+          <TextsTwo>{t('home.excellence.text')}</TextsTwo>
 
           <PhoneLink to="https://wa.me/+351966799623">
             <PhoneTitleTwo>
-              Solicite um orçamento via WhatsApp agora mesmo<br /><br />
+              {t('home.whatsapp')}
+              <br /><br />
               <img src="whatsapp1.png" alt="Ícone de WhatsApp" /><br />
             </PhoneTitleTwo>
           </PhoneLink><br />
@@ -76,14 +73,12 @@ const Home = () => {
 
       <ThirdSection>
         <GenericTexts>
-          <Title>Marcas:</Title>
+          <Title>{t('home.brandstitle')}</Title>
         </GenericTexts>
         <ImageSection>
           <ImageTwo src="empresas.webp" />
         </ImageSection>
-        <TextsThree>
-          Trabalhamos com marcas de Excelente procedência para melhor lhe atender.
-        </TextsThree>
+        <TextsThree>{t('home.brands')}</TextsThree>
       </ThirdSection>
       <BottomBar />
     </HomeContainer>

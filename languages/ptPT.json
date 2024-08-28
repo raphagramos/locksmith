@@ -1,0 +1,64 @@
+{
+    "aboutUs": {
+      "title": "Quem Somos Nós?",
+      "subtitle": "Conheça a Abertura de Portas",
+      "text": "Nosso time é formado por especialistas em segurança e técnicos em abertura de portas, todos treinados e atualizados com as melhores práticas do mercado. Estamos aqui para garantir que você receba o melhor atendimento e solução possível, com o mínimo de estresse e máxima eficiência."
+    },
+    "catalog": {
+      "title": "Catálogo de Serviços",
+      "icons":"🔑 🔒",
+      "subtitle": "Explore nossas especialidades",
+      "phoneTitle": "Ligue agora, 24 horas",
+      "section1": {
+        "title": "Fechaduras para Portas Blindadas",
+        "subtitle": "Troca de fechaduras, aberturas com trinco e com voltas, manutenção, troca de segredos, cilindros e lubrificação."
+      },
+      "section2": {
+        "title": "Fechaduras de 2 e 4 Trancas",
+        "subtitle": "Temos diversos tipos de fechaduras com trancas para lhe deixar seguro."
+      },
+      "section3": {
+        "title": "Precisando de Fechadura Elétrica? Conte com a gente!"
+      }
+    },
+    "contact": {
+      "title": "Contato",
+      "phone": "351 966 799 623",
+      "email": "locksmith24hourslisbon@gmail.com",
+      "whatsapp": "Ligue Já para nosso WhatsApp"
+    },
+    "home": {
+      "title": "Serviço de Chaveiro",
+      "subtitle": "Disponibilidade de diversos serviços de chaveiro para você.",
+      "subtitle1":"Desde aberturas rápidas até codificação de chaves de veículos.",
+      "phoneTitle": "Ligue agora, 24 horas",
+      "emergency": {
+        "title": "Emergências Solucionadas",
+        "emergencysolve":"Respostas rápidas para momentos críticos.",
+        "text": "Chave esquecida no carro? Porta bloqueada? Atendimento 24 horas, ágil, eficaz e seguro. Paz de espírito em cada emergência."
+      },
+      "excellence": {
+        "title": "Excelência Garantida",
+        "text": "Compromisso com a qualidade. Clientes satisfeitos, serviços excepcionais. Vivencie a experiência Abertura de Portas."
+      },
+      "whatsapp": "Solicite um orçamento via WhatsApp agora mesmo",
+      "brandstitle":"Marcas:",
+      "brands": "Trabalhamos com marcas de Excelente procedência para melhor lhe atender."
+    },
+    "topBar": {
+      "professionals": "Profissionais em Fechaduras",
+      "phone": "351 966 799 623",
+      "availability": "24h/dia, todos os dias"
+    },
+    "bottomBar": {
+      "odr": "Online Dispute Resolution"
+    },
+    "navbar": {
+        "home": "Início",
+        "catalog": "Catálogo",
+        "aboutUs": "Sobre nós",
+        "contact": "Contato",
+        "whatsapp": "Acesse Nosso WhatsApp"
+      }
+  }
+  

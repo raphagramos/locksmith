@@ -213,16 +213,20 @@ export const Subtitletwo = styled.h2`
 `;
 export const PhoneTitle = styled.h2`
   ${CommonTextStyles}
-
   color: white;
   font-weight: bold;
   font-size: 24px;
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
-  margin-top: 1rem;
   &:hover {
     color:rgb(16, 42, 116);
     transition: color 0.5s ease;
   }
+`;
+export const PhoneDiv = styled.div`
+
+
+  margin-top: 1rem;
+  
 
   ${mobile} {
     display:flex;
@@ -230,7 +234,6 @@ export const PhoneTitle = styled.h2`
     margin-right:1.5rem;
   }
 `;
-
 export const PhoneTitleTwo = styled.h2`
   ${CommonTextStyles}
 

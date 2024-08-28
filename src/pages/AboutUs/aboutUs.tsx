@@ -8,17 +8,19 @@ import {
   Texts,
 } from "./AboutUsComponents";
 import React from 'react';
+import { useTranslation } from 'react-i18next';
+
 const AboutUs = () => {
+  const { t } = useTranslation();
+
   return (
     <AboutUsContainer>
       <AboutUsSection>
-        <AboutUsImage src="aboutUs.png" alt="Sobre Nós" />
+        <AboutUsImage src="aboutUs.png" alt={t('aboutUs.title')} />
         <AboutUsTexts>
-          <AboutUsTitle>Quem Somos Nós?</AboutUsTitle>
-          <AboutUsSubtitle> Conheça a Abertura de Portas</AboutUsSubtitle>
-          <Texts>
-          Nosso time é formado por especialistas em segurança e técnicos em abertura de portas, todos treinados e atualizados com as melhores práticas do mercado. Estamos aqui para garantir que você receba o melhor atendimento e solução possível, com o mínimo de estresse e máxima eficiência.
-          </Texts>
+          <AboutUsTitle>{t('aboutUs.title')}</AboutUsTitle>
+          <AboutUsSubtitle>{t('aboutUs.subtitle')}</AboutUsSubtitle>
+          <Texts>{t('aboutUs.text')}</Texts>
         </AboutUsTexts>
       </AboutUsSection>
     </AboutUsContainer>

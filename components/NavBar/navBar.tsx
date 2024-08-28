@@ -1,15 +1,15 @@
 import React, { useState } from 'react';
 import { Link, useNavigate } from 'react-router-dom';
 import {
-  CNavbar,
   CContainer,
   CNavbarToggler,
   CCollapse,
   CNavbarNav,
   CNavItem,
 } from '@coreui/react';
-import { Img, StyledNavLink,ImgTwo, StyledNavBar } from './navBarStyles';
+import { Img, StyledNavLink, ImgTwo, StyledNavBar, LanguageIcons, LanguageIconsMobile } from './navBarStyles';
 import '@coreui/coreui/dist/css/coreui.min.css';
+import { useTranslation } from 'react-i18next';
 
 interface NavLinkWithRouterProps {
   to: string;
@@ -31,16 +31,33 @@ const NavLinkWithRouter: React.FC<NavLinkWithRouterProps> = ({ to, children }) =
 };
 
 const Navbar: React.FC = () => {
+  const { t,i18n } = useTranslation();
   const [visible, setVisible] = useState(false);
-
+  const toggleLanguage = (language: string) => {
+    i18n.changeLanguage(language);
+  };
   return (
     <>
       <StyledNavBar expand="lg" colorScheme="light">
+      <LanguageIconsMobile>
+            <img 
+              style={{ width: "2rem", cursor: "pointer", margin: "0 0.5rem" }} 
+              src='https://upload.wikimedia.org/wikipedia/commons/5/5c/Flag_of_Portugal.svg' 
+              onClick={() => toggleLanguage('ptPT')} 
+              alt="Portuguese" 
+            />
+            <img 
+              style={{ width: "2rem", cursor: "pointer", margin: "0 0.5rem" }} 
+              src='https://upload.wikimedia.org/wikipedia/commons/a/a4/Flag_of_the_United_States.svg' 
+              onClick={() => toggleLanguage('en')} 
+              alt="English" 
+            />
+          </LanguageIconsMobile>
         <StyledNavLink>
           <CContainer fluid>
             <NavLinkWithRouter to="/">
               <span className="navbar-brand">
-                <Img src='logo.png'/>
+                <Img src='logo.png' />
               </span>
             </NavLinkWithRouter>
             <CNavbarToggler
@@ -55,40 +72,54 @@ const Navbar: React.FC = () => {
             <CNavItem className="nav-link">
               <NavLinkWithRouter to="/">
                 <StyledNavLink>
-                  Início
+                  {t('navbar.home')}
                 </StyledNavLink>
               </NavLinkWithRouter>
             </CNavItem>
             <CNavItem className="nav-link">
               <NavLinkWithRouter to="/catalogo">
                 <StyledNavLink>
-                  Catálogo
+                  {t('navbar.catalog')}
                 </StyledNavLink>
               </NavLinkWithRouter>
             </CNavItem>
             <CNavItem className="nav-link">
               <NavLinkWithRouter to="/aboutUs">
                 <StyledNavLink>
-                  Sobre nós
+                  {t('navbar.aboutUs')}
                 </StyledNavLink>
               </NavLinkWithRouter>
             </CNavItem>
             <CNavItem className="nav-link">
               <NavLinkWithRouter to="/contactUs">
                 <StyledNavLink>
-                  Contato
+                  {t('navbar.contact')}
                 </StyledNavLink>
               </NavLinkWithRouter>
             </CNavItem>
             <CNavItem className="nav-link">
               <NavLinkWithRouter to="https://wa.me/+351966799623">
                 <StyledNavLink>
-                <ImgTwo src="whatsapp1.png" alt="Ícone de telefone" />
-                  Acesse Nosso WhatsApp
+                  <ImgTwo src="whatsapp1.png" alt="Ícone de telefone" />
+                  {t('navbar.whatsapp')}
                 </StyledNavLink>
               </NavLinkWithRouter>
             </CNavItem>
           </CNavbarNav>
+          <LanguageIcons>
+            <img 
+              style={{ width: "2rem", cursor: "pointer", margin: "0 0.5rem" }} 
+              src='https://upload.wikimedia.org/wikipedia/commons/5/5c/Flag_of_Portugal.svg' 
+              onClick={() => toggleLanguage('ptPT')} 
+              alt="Portuguese" 
+            />
+            <img 
+              style={{ width: "2rem", cursor: "pointer", margin: "0 0.5rem" }} 
+              src='https://upload.wikimedia.org/wikipedia/commons/a/a4/Flag_of_the_United_States.svg' 
+              onClick={() => toggleLanguage('en')} 
+              alt="English" 
+            />
+          </LanguageIcons>
         </CCollapse>
       </StyledNavBar>
     </>

@@ -16,59 +16,53 @@ import {
   CatalogTitleTwo,
 } from "./CatalogComponents";
 import React from 'react';
+import { useTranslation } from 'react-i18next';
 
 const Catalogo = () => {
+  const { t } = useTranslation();
+
   return (
     <CatalogContainer>
       <CatalogFirstSection>
         <CatalogTexts>
-          <CatalogFirstTitle>Catálogo de Serviços <br />🔑 🔒</CatalogFirstTitle>
-
-          <CatalogSubtitleTwo>
-            Explore nossas especialidades
-          </CatalogSubtitleTwo>
+          <CatalogFirstTitle>{t('catalog.title')}<br/>
+          {t('catalog.icons')}</CatalogFirstTitle>
+          <CatalogSubtitleTwo>{t('catalog.subtitle')}</CatalogSubtitleTwo>
           <PhoneLink to="tel:+351966799623">
             <PhoneTitle>
               <img src="telefone.png" alt="Ícone de telefone" />
-              Ligue agora, 24 horas
+              {t('catalog.phoneTitle')}
             </PhoneTitle>
           </PhoneLink>
         </CatalogTexts>
       </CatalogFirstSection>
 
       <CatalogSection>
-        <CatalogTitle>Fechaduras para Portas Blindadas</CatalogTitle>
+        <CatalogTitle>{t('catalog.section1.title')}</CatalogTitle>
         <CatalogImageContainer>
           <CatalogImage src="fechadura.jpeg" alt="Fechadura Blindada" />
         </CatalogImageContainer>
         <CatalogTexts>
-          <CatalogSubtitle>
-            Troca de fechaduras, aberturas com trinco e com voltas, manutenção, troca de segredos, cilindros e lubrificação.
-          </CatalogSubtitle>
+          <CatalogSubtitle>{t('catalog.section1.subtitle')}</CatalogSubtitle>
         </CatalogTexts>
       </CatalogSection>
 
       <FirstCatalogSection>
-        <CatalogTitleTwo>Fechaduras de 2 e 4 Trancas</CatalogTitleTwo>
+        <CatalogTitleTwo>{t('catalog.section2.title')}</CatalogTitleTwo>
         <CatalogImageContainer>
           <CatalogImage src="fecha2e4.jpeg" alt="Fechadura 2 e 4 trancas" />
         </CatalogImageContainer>
         <CatalogTextsTwo>
-          <CatalogSubtitleTwo>
-           Temos diversos tipos de fechaduras com trancas para lhe deixar seguro.
-          </CatalogSubtitleTwo>
+          <CatalogSubtitleTwo>{t('catalog.section2.subtitle')}</CatalogSubtitleTwo>
         </CatalogTextsTwo>
       </FirstCatalogSection>
 
       <CatalogSection>
-        <CatalogTitle>
-          Precisando de Fechadura Elétrica? Conte com a gente!
-        </CatalogTitle>
+        <CatalogTitle>{t('catalog.section3.title')}</CatalogTitle>
         <CatalogImageContainer>
           <CatalogImage src="fechaele.jpeg" alt="Fechadura Elétrica" />
         </CatalogImageContainer>
-        <CatalogTexts>
-        </CatalogTexts>
+        <CatalogTexts></CatalogTexts>
       </CatalogSection>
     </CatalogContainer>
   );

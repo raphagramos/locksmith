@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 import { CNavLink, CNavbar} from '@coreui/react';
 import WebFont from 'webfontloader';
-import {mobile} from '../../components/dimensions'
+import {desktop, mobile} from '../../components/dimensions'
 
 WebFont.load({
   google: {
@@ -28,7 +28,7 @@ color: #8a141c;
   }
 
   ${mobile} {
-    width:105%;
+    width:100%;
     background-color: #0d0d35;
     transition: background-color 0.3s ease, box-shadow 0.3s ease;
     text-align: center;
@@ -41,4 +41,22 @@ color: #8a141c;
 
 export const StyledNavBar = styled(CNavbar)`
 background-color: #0d0d35;
+`;
+export const LanguageIconsMobile = styled.div`
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  margin-left: auto;
+  ${desktop} {
+    display: none;
+  }
+`;
+export const LanguageIcons = styled.div`
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  margin-left: auto;
+  ${mobile} {
+    display: none;
+  }
 `;
