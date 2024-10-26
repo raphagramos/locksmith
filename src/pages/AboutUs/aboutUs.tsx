@@ -15,7 +15,7 @@ const AboutUs = () => {
   return (
     <AboutUsContainer>
       <AboutUsSection>
-        <AboutUsImage src="aboutUs.jpeg" alt={t('aboutUs.alt')} />
+        <AboutUsImage src="aboutUs.webp" alt={t('aboutUs.alt')} />
         <AboutUsTexts>
           <AboutUsTitle>{t('aboutUs.title')}</AboutUsTitle>
           <AboutUsSubtitle>{t('aboutUs.subtitle')}</AboutUsSubtitle>

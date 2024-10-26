@@ -27,7 +27,7 @@ const Home = () => {
   
   return (
     <HomeContainer>
-      <HomeImg src="home.png" alt={t('home.mainImageAlt')} />
+      <HomeImg src="home.webp" alt={t('home.mainImageAlt')} />
       <Section>
         <GenericTexts>        
           <Hometitle>{t('home.serviceTitle')}</Hometitle>
@@ -37,13 +37,13 @@ const Home = () => {
           <Subtitle>{t('home.serviceDescription')}</Subtitle>
           <PhoneLink to="tel:+351961195956">
             <PhoneTitle>
-              <img src="telefone.png" alt={t('home.phoneIconAlt')} />
+              <img src="telefone.webp" alt={t('home.phoneIconAlt')} />
               {t('home.phoneCallText')}
             </PhoneTitle>
           </PhoneLink>
         </GenericTexts>
         <ImageSection>
-          <img src="Chaveiro1.png" alt={t('home.locksmithImageAlt')} />
+          <img src="Chaveiro1.webp" alt={t('home.locksmithImageAlt')} />
         </ImageSection>
       </Section>
 
@@ -55,13 +55,13 @@ const Home = () => {
           <TextsTwo>{t('home.qualityDescription')}</TextsTwo>
           <PhoneLink to="https://wa.me/message/SXGUDW4HN3U4J1">
             <PhoneTitleTwo>
-              <img src="whatsapp1.png" alt={t('home.whatsappIconAlt')} />
+              <img src="whatsapp1.webp" alt={t('home.whatsappIconAlt')} />
               {t('home.whatsappText')}
             </PhoneTitleTwo>
           </PhoneLink>
         </GenericTextstwo>
         <ImageSection>
-          <img src="abrecarro.jpg" alt={t('home.carUnlockImageAlt')} />
+          <img src="abrecarro.webp" alt={t('home.carUnlockImageAlt')} />
         </ImageSection>
       </FirstSection>
 

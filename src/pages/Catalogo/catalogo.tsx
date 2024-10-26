@@ -28,7 +28,7 @@ const Catalogo = () => {
           <CatalogSubtitleTwo>{t('catalog.servicesSubtitle')}</CatalogSubtitleTwo>
           <PhoneLink to="tel:+351961195956">
             <PhoneTitle>
-              <img src="telefone.png" alt={t('catalog.phoneIconAlt')} />
+              <img src="telefone.webp" alt={t('catalog.phoneIconAlt')} />
               {t('catalog.phoneCallText')}
             </PhoneTitle>
           </PhoneLink>
@@ -37,7 +37,7 @@ const Catalogo = () => {
 
       <CatalogSection>
         <CatalogImageContainer>
-          <CatalogImage src="fechadura.jpeg" alt={t('catalog.lockImageAlt')} />
+          <CatalogImage src="fechadura.webp" alt={t('catalog.lockImageAlt')} />
         </CatalogImageContainer>
         <CatalogTexts>
           <CatalogTitle>{t('catalog.lockTitle')}</CatalogTitle>
@@ -47,7 +47,7 @@ const Catalogo = () => {
 
       <FirstCatalogSection>
         <CatalogImageContainer>
-          <CatalogImage src="fecha2e4.jpeg" alt={t('catalog.lock2and4ImageAlt')} />
+          <CatalogImage src="fecha2e4.webp" alt={t('catalog.lock2and4ImageAlt')} />
         </CatalogImageContainer>
         <CatalogTextsTwo>
           <CatalogTitleTwo>{t('catalog.lock2and4Title')}</CatalogTitleTwo>
@@ -57,7 +57,7 @@ const Catalogo = () => {
 
       <CatalogSection>
         <CatalogImageContainer>
-          <CatalogImage src="fechaele.jpeg" alt={t('catalog.electricLockImageAlt')} />
+          <CatalogImage src="fechaele.webp" alt={t('catalog.electricLockImageAlt')} />
         </CatalogImageContainer>
         <CatalogTexts>
           <CatalogTitle>{t('catalog.electricLockTitle')}</CatalogTitle>

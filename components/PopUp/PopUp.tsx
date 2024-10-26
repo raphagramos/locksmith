@@ -5,7 +5,7 @@ import { FaWhatsapp } from "react-icons/fa";
 import { useState } from "react";
 import { useTranslation } from "react-i18next";
 import "./custombuttom.css";
-
+import {StyledButtonDesktop,StyledButtonMobile} from "./PopUpStyles.tsx"
 const PopUp: React.FC = () => {
   const [showModal, setShowModal] = useState(true);
   const { t } = useTranslation();
@@ -46,7 +46,7 @@ const PopUp: React.FC = () => {
             >
               {t('popUp.declineButton')}
             </Button>
-            <a
+            <StyledButtonDesktop
               href="https://wa.me/message/SXGUDW4HN3U4J1"
               target="_blank"
               rel="noopener noreferrer"
@@ -57,7 +57,19 @@ const PopUp: React.FC = () => {
               >
                 <FaWhatsapp className="mr-2" /> {t('popUp.acceptButton')}
               </Button>
-            </a>
+            </StyledButtonDesktop>
+            <StyledButtonMobile
+              href="tel:+351961195956"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <Button
+                className="custom-button-green text-blue-500 hover:text-blue-600 px-4 py-2 rounded"
+                onClick={() => setShowModal(false)}
+              >
+                <FaWhatsapp className="mr-2" /> {t('popUp.acceptButton')}
+              </Button>
+            </StyledButtonMobile>
           </div>
         </div>
       </Modal.Body>

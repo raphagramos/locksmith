@@ -15,7 +15,7 @@ const Contact: React.FC = () => {
       <ContactText>{t('contact.email')} aberturas24h.info@gmail.com</ContactText>
    
       <ContactLink href="https://wa.me/message/SXGUDW4HN3U4J1" target="_blank" rel="noopener noreferrer">
-        <ContactText><img src="whatsapp1.png" alt={t('contact.phoneIconAlt')} /> {t('contact.whatsappText')}</ContactText> 
+        <ContactText><img src="whatsapp1.webp" alt={t('contact.phoneIconAlt')} /> {t('contact.whatsappText')}</ContactText> 
       </ContactLink>
     </ContatoContainer>
   );
