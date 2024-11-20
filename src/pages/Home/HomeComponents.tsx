@@ -16,7 +16,7 @@ font-weight: 300;
 
 const HomeContainer = styled.div`
   ${CommonTextStyles}
-  background-color:#8a141c;;
+  background-color:rgb(37, 150, 190);
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -28,7 +28,7 @@ const HomeContainer = styled.div`
 `;
 
 const HomeImg = styled.img`
-  height: 300px;
+  height: 200px;
    ${mobile} {
     display:none;
   }
@@ -60,7 +60,7 @@ const Section = styled.div`
 export const FirstSection = styled.div`
   ${CommonTextStyles}
   margin-bottom: 1rem;
-  background-color: #8a141c;
+  background-color: rgb(37, 150, 190);
   display: flex;
   width: 95%;
   flex-direction: column;

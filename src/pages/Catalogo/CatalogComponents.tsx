@@ -15,7 +15,7 @@ font-weight: 300;
 `;
 
 const CatalogContainer = styled.div`
-  background-color: #8a141c;
+  background-color: rgb(37, 150, 190);
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -65,7 +65,7 @@ export const PhoneLink = styled(Link)`
 export const CatalogFirstSection = styled.div`
   ${CommonTextStyles}
   margin: 1.5rem;
-  background-color: #8a141c;
+  background-color: rgb(37, 150, 190);
   display: flex;
   flex-direction: column;
   padding: 1.25rem;
@@ -97,7 +97,7 @@ const CatalogSection = styled.div`
 export const FirstCatalogSection = styled.div`
   ${CommonTextStyles}
   margin: 0.5rem;
-  background-color: #8a141c;
+  background-color: rgb(37, 150, 190);
   display: flex;
   align-items: center;
   flex-direction: column;

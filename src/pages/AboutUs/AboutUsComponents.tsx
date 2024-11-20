@@ -13,7 +13,7 @@ const CommonTextStyles = `
 
 export const AboutUsContainer = styled.div`
   ${CommonTextStyles}
-  background-color: #8a141c;
+  background-color: rgb(37, 150, 190);
   align-items: center;
   justify-content: center;
   display: flex;

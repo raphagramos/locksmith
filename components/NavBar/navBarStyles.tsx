@@ -22,9 +22,9 @@ export const StyledNavLink = styled(CNavLink)`
 font-family: 'Exo Soft', sans-serif;
 font-weight: 600;
 text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
-color: #8a141c;
+color: white;
   &:hover {
-    color: white;
+    color: rgb(37, 150, 190);
   }
 
   ${mobile} {

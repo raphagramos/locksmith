@@ -29,7 +29,7 @@ const Home = () => {
 
   return (
     <HomeContainer>
-      <HomeImg src="home.png"></HomeImg>
+      <HomeImg src="logohome.png"></HomeImg>
       <Section>
         <GenericTexts>
           <Title>{t('home.title')}</Title>

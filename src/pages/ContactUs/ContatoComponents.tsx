@@ -14,7 +14,7 @@ const CommonTextStyles = `
 
     export const ContatoContainer = styled.div`
       ${CommonTextStyles}
-      background-color: #8a141c;
+      background-color: rgb(37, 150, 190);
       display: flex;
       text-decoration: none;
       flex-direction: column;
