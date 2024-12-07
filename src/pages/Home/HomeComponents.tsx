@@ -59,20 +59,19 @@ const Section = styled.div`
 
 export const FirstSection = styled.div`
   ${CommonTextStyles}
-  margin-bottom: 1rem;
+  margin-bottom: 0rem;
   background-color: rgb(37, 150, 190);
   display: flex;
   width: 95%;
   flex-direction: column;
   border-radius:2rem;
-  padding: 1.5rem;
+  padding: 1rem;
   ${mobile} {
     width: 100%;
     display:block;
     text-align: center;
   }
 `;
-
 export const ThirdSection = styled.div`
    ${CommonTextStyles}
    background-color: rgb(255, 255, 255, 0.6);
@@ -154,6 +153,13 @@ export const TextsTwo = styled.p`
   font-size: 18px;
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
 `;
+export const TextsServices = styled.p`
+  ${CommonTextStyles}
+  margin-top: 0.1rem;
+  color: white;
+  font-size: 18px;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+`;
 export const TextsThree = styled.p`
   ${CommonTextStyles}
   margin-top: 2rem;
@@ -170,6 +176,7 @@ export const TextsThree = styled.p`
 const Title = styled.h1`
 font-family: 'Kanit', sans-serif;
 font-weight: 600;
+text-align: center; 
   color: rgb(16, 42, 116);
   font-size: 45px;
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);

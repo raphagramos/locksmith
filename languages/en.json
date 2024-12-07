@@ -1,64 +1,72 @@
 {
-    "aboutUs": {
-      "title": "Who Are We?",
-      "subtitle": "Meet Abertura de Portas",
-      "text": "Our team is made up of security experts and door opening technicians, all trained and up-to-date with the best market practices. We are here to ensure you receive the best service and solution possible, with minimal stress and maximum efficiency."
+  "aboutUs": {
+    "title": "Who Are We?",
+    "subtitle": "Get to Know Abertura de Portas",
+    "text": "Our team is composed of security specialists and door opening technicians, all trained and updated with the best market practices. We are here to ensure that you receive the best service and solution possible with minimal stress and maximum efficiency."
+  },
+  "catalog": {
+    "title": "Service Catalog",
+    "icons": "🔑 🔒",
+    "subtitle": "Explore our specialties",
+    "phoneTitle": "Call now, 24 hours",
+    "section1": {
+      "title": "Locks for Armored Doors",
+      "subtitle": "Lock replacement, opening with trimmings and turns, maintenance, key replacement, cylinder services, and lubrication."
     },
-    "catalog": {
-      "title": "Service Catalog 🔑 🔒",
-      "subtitle": "Explore our specialties",
-      "phoneTitle": "Call now, 24 hours",
-      "section1": {
-        "title": "Locks for Armored Doors",
-        "subtitle": "Lock replacement, opening with latch and turns, maintenance, code change, cylinders, and lubrication."
-      },
-      "section2": {
-        "title": "2 and 4 Bolt Locks",
-        "subtitle": "We have various types of bolt locks to keep you secure."
-      },
-      "section3": {
-        "title": "Need an Electric Lock? Count on us!"
-      }
+    "section2": {
+      "title": "Two and Four Bolt Locks",
+      "subtitle": "We have various types of locks with bolts to keep you safe."
     },
-    "contact": {
-      "title": "Contact",
-      "phone": "351 966 799 623",
-      "email": "locksmith24hourslisbon@gmail.com",
-      "whatsapp": "Call us on WhatsApp Now"
+    "section3": {
+      "title": "Need an Electric Lock? Count on Us!"
+    }
+  },
+  "contact": {
+    "title": "Contact",
+    "phone": "351 966 799 623",
+    "email": "locksmith24hourslisbon@gmail.com",
+    "whatsapp": "Call Now on our WhatsApp"
+  },
+  "home": {
+    "title": "24 Hours Locksmith Service: Quick and Trustable Solutions",
+    "subtitle": "If you are looking for a reliable locksmith available 24 hours, you have just found the ideal solution.",
+    "subtitle1": "We offer a comprehensive service to ensure your safety and convenience in any situation, from emergencies to planned installations.",
+    "phoneTitle": "Call now, 24 hours",
+    "services": {
+      "title": "Available Services",
+      "fastopen": "✔ Fast Openings – Locked out? Solve it without complications.",
+      "repair": "✔ Lock Repairs – Restore the functionality and security of your home or business.",
+      "install": "✔ Installation and replacement of keys and cylinders – Upgrade for greater protection."
     },
-    "home": {
-      "title": "Locksmith Service",
-      "subtitle": "Availability of various locksmith services for you. ",
-      "subtitle1":"From quick repairing, instalation and secrets replace, cannons and lock.",
-      "phoneTitle": "Call now, 24 hours",
-      "emergency": {
-        "title": "Urgency Solutions",
-        "emergencysolve":"Fast answer for critical moments",
-        "text": "Forgot your key in the car? Locked door? 24-hour service, fast, efficient, and secure. Call us."
-      },
-      "excellence": {
-        "title": "Guaranteed Excellence",
-        "text": "Commitment to quality. Satisfied customers, exceptional services. Experience the Abertura de Portas experience."
-      },
-      "whatsapp": "Request a quote via WhatsApp now",
-      "brandstitle":"Brands:",
-      "brands": "We work with top-quality brands to serve you better."
+    "emergency": {
+      "title": "Emergency Situations Support",
+      "emergencysolve": "Lost access to your home? Rely on our 24-hour service, ensuring a fast and effective response even in the most critical situations.",
+      "text": ""
     },
-    "topBar": {
-      "professionals": "Lock Professionals",
-      "phone": "351 966 799 623",
-      "availability": "24h/day, every day"
+    "excellence": {
+      "title": "Why Choose Us?",
+      "text": "✔ Guaranteed Excellence: Experienced professionals dedicated to providing high-quality service.",
+      "text1": "✔ Satisfied Customers: Our reputation is built on trust and customer recognition.",
+      "text2": "✔ Personalized Service: We adapt quickly and efficiently to your needs. Request a quote now.",
+      "text3": "✔ Contact us via WhatsApp to receive a free quote. Solve your problem safely, quickly, and with quality."
     },
-    "bottomBar": {
-      "odr": "Online Dispute Resolution"
-    },
-    
-        "navbar": {
-          "home": "Home",
-          "catalog": "Catalog",
-          "aboutUs": "About Us",
-          "contact": "Contact",
-          "whatsapp": "Access Our WhatsApp"
-        }  
+    "whatsapp": "Request a quote via WhatsApp now",
+    "brandstitle": "Brands:",
+    "brands": "🔒 24 Hours Locksmith – Opening Doors: Your safety is our priority."
+  },
+  "topBar": {
+    "professionals": "Professionals in Locks",
+    "phone": "351 966 799 623",
+    "availability": "24h/day, every day"
+  },
+  "bottomBar": {
+    "odr": "Online Dispute Resolution"
+  },
+  "navbar": {
+    "home": "Home",
+    "catalog": "Catalog",
+    "aboutUs": "About Us",
+    "contact": "Contact",
+    "whatsapp": "Access Our WhatsApp"
   }
-  
+}

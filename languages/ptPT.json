@@ -1,64 +1,73 @@
-{
-    "aboutUs": {
-      "title": "Quem Somos Nós?",
-      "subtitle": "Conheça a Abertura de Portas",
-      "text": "Nosso time é formado por especialistas em segurança e técnicos em abertura de portas, todos treinados e atualizados com as melhores práticas do mercado. Estamos aqui para garantir que você receba o melhor atendimento e solução possível, com o mínimo de estresse e máxima eficiência."
-    },
-    "catalog": {
-      "title": "Catálogo de Serviços",
-      "icons":"🔑 🔒",
-      "subtitle": "Explore nossas especialidades",
-      "phoneTitle": "Ligue agora, 24 horas",
-      "section1": {
-        "title": "Fechaduras para Portas Blindadas",
-        "subtitle": "Troca de fechaduras, aberturas com trinco e com voltas, manutenção, troca de segredos, cilindros e lubrificação."
+  {
+      "aboutUs": {
+        "title": "Quem Somos Nós?",
+        "subtitle": "Conheça a Abertura de Portas",
+        "text": "Nosso time é formado por especialistas em segurança e técnicos em abertura de portas, todos treinados e atualizados com as melhores práticas do mercado. Estamos aqui para garantir que você receba o melhor atendimento e solução possível, com o mínimo de estresse e máxima eficiência."
       },
-      "section2": {
-        "title": "Fechaduras de 2 e 4 Trancas",
-        "subtitle": "Temos diversos tipos de fechaduras com trancas para lhe deixar seguro."
+      "catalog": {
+        "title": "Catálogo de Serviços",
+        "icons":"🔑 🔒",
+        "subtitle": "Explore nossas especialidades",
+        "phoneTitle": "Ligue agora, 24 horas",
+        "section1": {
+          "title": "Fechaduras para Portas Blindadas",
+          "subtitle": "Troca de fechaduras, aberturas com trinco e com voltas, manutenção, troca de segredos, cilindros e lubrificação."
+        },
+        "section2": {
+          "title": "Fechaduras de 2 e 4 Trancas",
+          "subtitle": "Temos diversos tipos de fechaduras com trancas para lhe deixar seguro."
+        },
+        "section3": {
+          "title": "Precisando de Fechadura Elétrica? Conte com a gente!"
+        }
       },
-      "section3": {
-        "title": "Precisando de Fechadura Elétrica? Conte com a gente!"
-      }
-    },
-    "contact": {
-      "title": "Contato",
-      "phone": "351 966 799 623",
-      "email": "locksmith24hourslisbon@gmail.com",
-      "whatsapp": "Ligue Já para nosso WhatsApp"
-    },
-    "home": {
-      "title": "Serviço de Chaveiro",
-      "subtitle": "Disponibilidade de diversos serviços de chaveiro para você.",
-      "subtitle1":"Desde aberturas rápidas até reparação, instalação e substituição de segredos, canhões e fechaduras.",
-      "phoneTitle": "Ligue agora, 24 horas",
-      "emergency": {
-        "title": "Urgências Solucionadas",
-        "emergencysolve":"Respostas rápidas para momentos críticos.",
-        "text": "Chave esquecida no carro? Porta bloqueada? Atendimento 24 horas, ágil, eficaz e seguro. Entre em contato conosco."
+      "contact": {
+        "title": "Contato",
+        "phone": "351 966 799 623",
+        "email": "locksmith24hourslisbon@gmail.com",
+        "whatsapp": "Ligue Já para nosso WhatsApp"
       },
-      "excellence": {
-        "title": "Excelência Garantida",
-        "text": "Compromisso com a qualidade. Clientes satisfeitos, serviços excepcionais. Vivencie a experiência Abertura de Portas."
+      "home": {
+        "title": "Serviço de Chaveiro 24 Horas: Soluções Ágeis e de Confiança",
+        "subtitle": "Se está à procura de um chaveiro de confiança, disponível 24 horas, acabou de encontrar a solução ideal.",
+        "subtitle1":"Oferecemos um serviço completo para garantir a sua segurança e comodidade em qualquer situação, desde emergências até instalações planejadas.",
+        "phoneTitle": "Ligue agora, 24 horas",
+        "services":{
+          "title": "Serviços Disponíveis",
+          "fastopen":"✔ Aberturas rápidas – Porta bloqueada? Resolva sem complicações.",
+          "repair":"✔ Reparação de fechaduras – Restaure a funcionalidade e a segurança da sua casa ou empresa.",
+          "install":"✔ Instalação e substituição de segredos e canhões – Upgrade para maior proteção."
+        },
+        "emergency": {
+          "title": "Atendimento em Situações de Emergência",
+          "emergencysolve":"Perdeu o acesso à sua casa? Conte com o nosso atendimento 24 horas,garantindo uma resposta rápida e eficaz, mesmo nos momentos mais críticos..",
+          "text": ""
+        },
+        "excellence": {
+          "title": "Por que Escolher-nos?",
+          "text": "✔ Excelência Garantida: Profissionais experientes e dedicados a prestar um serviço de alta qualidade.",
+          "text1":"✔ Clientes Satisfeitos: A nossa reputação é construída com base na confiança e no reconhecimento dos nossos clientes.",
+          "text2":"✔ Atendimento Personalizado: Adaptamo-nos às suas necessidades com rapidez e eficiência. Solicite um Orçamento Agora", 
+          "text3":"✔ Entre em contacto connosco via WhatsApp e obtenha um orçamento gratuito. Resolva o seu problema com segurança, qualidade e rapidez."
+        },
+        "whatsapp": "Solicite um orçamento via WhatsApp agora mesmo",
+        "brandstitle":"Marcas:",
+        "brands": "🔒 Chaveiro 24 Horas – Abertura de Portas: A sua segurança é a nossa prioridade."
       },
-      "whatsapp": "Solicite um orçamento via WhatsApp agora mesmo",
-      "brandstitle":"Marcas:",
-      "brands": "Trabalhamos com marcas de Excelente procedência para melhor lhe atender."
-    },
-    "topBar": {
-      "professionals": "Profissionais em Fechaduras",
-      "phone": "351 966 799 623",
-      "availability": "24h/dia, todos os dias"
-    },
-    "bottomBar": {
-      "odr": "Online Dispute Resolution"
-    },
-    "navbar": {
-        "home": "Início",
-        "catalog": "Catálogo",
-        "aboutUs": "Sobre nós",
-        "contact": "Contato",
-        "whatsapp": "Acesse Nosso WhatsApp"
-      }
-  }
-  
+      "topBar": {
+        "professionals": "Profissionais em Fechaduras",
+        "phone": "351 966 799 623",
+        "availability": "24h/dia, todos os dias"
+      },
+      "bottomBar": {
+        "odr": "Online Dispute Resolution"
+      },
+      "navbar": {
+          "home": "Início",
+          "catalog": "Catálogo",
+          "aboutUs": "Sobre nós",
+          "contact": "Contato",
+          "whatsapp": "Acesse Nosso WhatsApp"
+        }
+    }
+    

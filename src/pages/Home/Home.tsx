@@ -17,7 +17,8 @@ import {
   PhoneTitle,
   Image,
   ImageTwo,
-  PhoneDiv
+  PhoneDiv,
+  TextsServices
 } from "./HomeComponents";
 import "@fontsource/montserrat";
 import React from 'react';
@@ -49,7 +50,14 @@ const Home = () => {
           <Subtitle>{t('home.subtitle')}<br/>{t('home.subtitle1')}</Subtitle>
         </GenericTexts>
       </Section>
-
+      <FirstSection>
+        <GenericTextstwo>
+          <TitleTwo>{t('home.services.title')}</TitleTwo>
+          <TextsServices>{t('home.services.fastopen')}</TextsServices>
+          <TextsServices>{t('home.services.repair')}</TextsServices>
+          <TextsServices>{t('home.services.install')}</TextsServices>
+        </GenericTextstwo>
+      </FirstSection>
       <FirstSection>
         <GenericTextstwo>
           <TitleTwo>{t('home.emergency.title')}</TitleTwo>
@@ -57,7 +65,9 @@ const Home = () => {
         {t('home.emergency.text')}</TextsTwo>
           <TitleTwo>{t('home.excellence.title')}</TitleTwo>
           <TextsTwo>{t('home.excellence.text')}</TextsTwo>
-
+          <TextsServices>{t('home.excellence.text1')}</TextsServices>
+          <TextsServices>{t('home.excellence.text2')}</TextsServices>
+          <TextsServices>{t('home.excellence.text3')}</TextsServices>
           <PhoneLink to="https://wa.me/+351966799623">
             <PhoneTitleTwo>
               {t('home.whatsapp')}
