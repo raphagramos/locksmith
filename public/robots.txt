@@ -1,7 +1,7 @@
 User-agent: *
 Disallow: /node_modules/
 Disallow: /static/
-Disallow: /public/
+Disallow: /
 Disallow: /build/
 Allow: /
 

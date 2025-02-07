@@ -32,8 +32,14 @@
         "home": {
           "mainImageAlt": "Main image",
           "serviceTitle": "Service",
-          "serviceLocations": "Lisbon, Cascais, Oeiras, Sintra, and the South Bank",
+          "callNow":"NEED TO CALL NOW?",
+          "AssistanceImeddiate":"IF YOU NEED IMMEDIATE ASSISTANCE, CALL US ON OUR WHATSAPP.",
+          "CallYes":"YES, CALL NOW .",
+          "Atendemos":"WE ATTEND",
+          "serviceLocations": "LISBON, CASCAIS, OEIRAS, SINTRA AND SOUTH BANK.",
           "serviceHours": "24 HOURS",
+          "REQUEST_QUOTE": "ASK FOR A QUOTE VIA WHATSAPP ",
+          "Redes":"Follow our social media:",
           "serviceDescription": "Casa de Chaves Don Pedro, your choice for 24-hour locksmith services. Quick and safe openings, anytime of the day. Your security is our priority.",
           "phoneIconAlt": "Phone icon",
           "phoneCallText": "Call now, 24-hour Locksmith",
@@ -53,15 +59,15 @@
       
         
            "navbar": {
-          "home": "Home",
-          "catalog": "Catalog",
-          "aboutUs": "About Us",
-          "contactUs": "Contact",
-          "whatsappLink": "Access Our WhatsApp",
-          "logoAlt": "Logo",
-          "whatsappAlt": "Phone Icon",
-          "toggleLanguageButton": "Switch Language"
-        },
+            "home": "HOME",
+            "catalog": "CATALOG",
+            "aboutUs": "ABOUT US",
+            "contactUs": "CONTACT",
+            "whatsappLink": "ACCESS OUR WHATSAPP",
+            "logoAlt": "LOGO",
+            "whatsappAlt": "PHONE ICON",
+            "toggleLanguageButton": "SWITCH LANGUAGE"
+},
         
         "bottomBar": {
           "linkText": "Online Dispute Resolution"

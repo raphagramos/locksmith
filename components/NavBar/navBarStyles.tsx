@@ -1,53 +1,105 @@
-import styled from 'styled-components';
-import { CNavLink} from '@coreui/react';
-import WebFont from 'webfontloader';
-import {mobile} from '../../components/dimensions'
+import styled from "styled-components";
+import { CContainer, CNavLink, CNavbar, CNavbarNav } from "@coreui/react";
+import { mobile,desktop } from "../../components/dimensions";
+import WebFont from "webfontloader";
 
 WebFont.load({
   google: {
-    families: ['Exo Soft:600'],
+    families: ["Oswald:wght@400;600;700"],
   },
 });
 
 export const Img = styled.img`
-  width: 15rem;  
+  width: 15rem;
   height: auto;
-`;
-export const ImgTwo = styled.img`
-margin-right: 1rem;
-  width: 1.5rem;  
+  ${mobile}{
+      display: none;
+    }
 `;
 
+export const ImgTwo = styled.img`
+  margin-right: 1rem;
+  width: 1.5rem;
+  ${mobile} {
+    margin-right: 0rem;
+  }
+`;
+
+export const StyledCnavbar = styled(CNavbar)`
+  background-color: #ffd83a;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1rem 1rem;
+  ${mobile} {
+    padding: 1rem 0rem;
+  }
+`;
+export const MobileImg = styled.img`
+    width: 7rem;
+    ${desktop}{
+      display: none;
+    }
+`
+export const StyledCCointainer = styled(CContainer)`
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 4rem;
+
+  ${mobile} {
+    padding: 1.5rem;
+  }
+`;
+
+export const StyledCNavbarNav = styled(CNavbarNav)`
+  display: flex;
+  align-items: center;
+  gap: 2rem; 
+ 
+  ${mobile} {
+    justify-content: space-between;
+    width: 100%;
+    gap: 1rem; 
+  }
+`;
+export const MenusDiv = styled.div`
+display: flex;
+`
+
 export const StyledNavLink = styled(CNavLink)`
-font-family: 'Exo Soft', sans-serif;
-font-weight: 600;
-text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
-color: rgb(16, 42, 116);
+  font-family: "Oswald", sans-serif;
+  font-size: 1.6rem;
+  font-weight: 600;
+  margin-left:2rem;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+  color: #2900f7;
+  text-decoration: none;
+
   &:hover {
-    color:#f5ba26;
+    color: white;
   }
 
   ${mobile} {
-    width:105%;
-    background-color: white;
-    transition: background-color 0.3s ease, box-shadow 0.3s ease;
+    margin-left: 0.2rem;
+    font-size: 0.8rem;
+    
     text-align: center;
-    &.expanded {
-      position: fixed;
-      top: 0;
-      left: 0;
-      right: 0;
-    }
-  
   }
-  
 `;
+
 export const LanguageIcons = styled.div`
+  position: absolute;
+  top: 0.5rem;
+  right: 1rem;
   display: flex;
   align-items: center;
-  justify-content: flex-end;
-  margin-left: auto;
-  ${mobile}{
-    display: none;
-  }
+  gap: 0.5rem;
 `;
+export const LanguageIconsImg = styled.img`
+width: 2rem;
+cursor: pointer;
+${mobile} {
+  width: 1.5rem;
+  }
+`

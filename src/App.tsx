@@ -6,17 +6,17 @@ import Catalogo from "./pages/Catalogo/catalogo.tsx";
 import AboutUs from "./pages/AboutUs/aboutUs.tsx";
 import ContactUs from "./pages/ContactUs/contactUs.tsx";
 import Home from "./pages/Home/Home.tsx";
-import TopBar from "../components/TopBar/topBar.tsx";
+// import TopBar from "../components/TopBar/topBar.tsx";
 import React from "react";
-import PopUp from "../components/PopUp/PopUp.tsx";
+// import PopUp from "../components/PopUp/PopUp.tsx";
 import '../i18n.js';
 const App = () => {
   
 
   return (
     <Router>
-      <PopUp/>
-        <TopBar />
+      {/* <PopUp/> */}
+        {/* <TopBar /> */}
         <Navbar />
         <Routes>
           <Route path="/" element={<Home />} />

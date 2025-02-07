@@ -31,8 +31,14 @@
     "home": {
       "mainImageAlt": "Imagem principal",
       "serviceTitle": "Atendimento",
-      "serviceLocations": "Lisboa , Cascais , Oeiras , Sintra e Margem Sul",
+      "callNow":"PRECISA LIGAR AGORA?",
+      "AssistanceImeddiate":"SE VOCÊ PRECISA DE ASSISTÊNCIA IMEDIATA, ENTRE EM CONTATO CONOSCO PELO WHATSAPP.",
+      "CallYes":"SIM, LIGAR AGORA .",
+      "Atendemos":"ATENDEMOS",
+      "serviceLocations": "LISBOA, CASCAIS, OEIRAS, SINTRA E MARGEM SUL.",
       "serviceHours": "24 HORAS",
+      "REQUEST_QUOTE": "SOLICITE UM ORÇAMENTO VIA WHATSAPP",
+      "Redes":"Siga nossas redes:",
       "serviceDescription": "Casa de Chaves Don Pedro, a sua escolha para serviços de chaveiro 24. Aberturas rápidas e seguras, a qualquer hora do dia. Sua segurança, nossa prioridade.",
       "phoneIconAlt": "Ícone de telefone",
       "phoneCallText": "Ligue já, Chaveiro 24 horas",
@@ -52,15 +58,15 @@
       
         
     "navbar": {
-      "home": "Início",
-      "catalog": "Catálogo",
-      "aboutUs": "Sobre nós",
-      "contactUs": "Contato",
-      "whatsappLink": "Acesse Nosso WhatsApp",
-      "logoAlt": "Logo",
-      "whatsappAlt": "Ícone de telefone",
-      "toggleLanguageButton": "Trocar idioma"
-    },
+  "home": "INÍCIO",
+  "catalog": "SERVIÇOS",
+  "contactUs": "CONTATO",
+  "aboutUs": "SOBRE",
+  "whatsappLink": "ACESSE NOSSO WHATSAPP",
+  "logoAlt": "LOGO",
+  "whatsappAlt": "ÍCONE DE TELEFONE",
+  "toggleLanguageButton": "TROCAR IDIOMA"
+},
     
         "bottomBar": {
           "linkText": "Resolução de Disputas Online"
