@@ -1,5 +1,5 @@
 import { useState, useEffect } from "react";
-import { VanDiv, VanImage } from "../src/pages/Home/HomeComponents";
+import { VanDiv, VanImage } from "../pages/Home/HomeComponents";
 import React from "react";
 
 const VanComponent = () => {

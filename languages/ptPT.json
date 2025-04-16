@@ -83,7 +83,33 @@
             "description": "Se você precisa de assistência imediata, entre em contato conosco pelo WhatsApp.",
             "declineButton": "Não, obrigado",
             "acceptButton": "Sim, ligar agora"
-          }
-      
+          },
+          "services": {
+    "title": "NOSSOS SERVIÇOS",
+    "items": [
+      {
+        "title": "Fechaduras para portas blindadas.",
+        "text": "Troca de fechaduras, abertura de trinco e com giros, manutenção, troca de segredos, cilindros e lubrificação."
+      },
+      {
+        "title": "Fechaduras 2 e 4 trancas.",
+        "text": "Troca de fechaduras, aberturas no trinco e com giros, regulagem e lubrificação."
+      },
+      {
+        "title": "Fechadura Elétrica.",
+        "text": "Troca de fechaduras, aberturas no trinco e com giros, regulagem e lubrificação."
+      }
+    ]
+  },
+  "about": {
+    "title": "QUEM SOMOS",
+    "intro": "Conheça a Casa de Chaves Don Pedro.",
+    "text1": "Somos uma empresa dedicada a oferecer serviços de chaveiro com excelência e comprometimento. Com anos de experiência, conquistamos a confiança de nossos clientes, proporcionando soluçóes eficientes e seguras para suas necessidades.",
+    "text2": "Nossa equipe altamente qualificada está pronta para atendê-lo, seia para situações de emergência ou serviços programados. Valorizamos a satisfação do cliente e a qualidade em cada trabalho realizado."
+  },
+  "brands": {
+    "title": "MARCAS QUE TRABALHAMOS:",
+    "text": "DEDICAÇÃO REFLETIDA EM PARCERIAS DE CONFIANÇA. CONFIE NA CASA DE CHAVES DON PEDRO PARA A SEGURANÇA DA SUA CASA OU VEÍCULO."
+  }
   }
   

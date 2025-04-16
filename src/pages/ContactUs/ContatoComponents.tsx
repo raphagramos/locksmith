@@ -1,6 +1,6 @@
 import styled from "styled-components";
 import WebFont from "webfontloader";
-import { mobile, mobilemin } from "../../../components/dimensions";
+import { mobile, mobilemin } from "../../components/dimensions";
 WebFont.load({
   google: {
     families: ["Exo Soft:600", "Kanit"],

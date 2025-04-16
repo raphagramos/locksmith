@@ -42,12 +42,12 @@ const Navbar: React.FC = () => {
       <StyledCCointainer fluid>
         <LanguageIcons>
           <LanguageIconsImg
-            src="https://upload.wikimedia.org/wikipedia/commons/5/5c/Flag_of_Portugal.svg"
+            src="/pt.svg"
             onClick={() => toggleLanguage("ptPT")}
             alt="Portuguese"
           />
           <LanguageIconsImg
-            src="https://upload.wikimedia.org/wikipedia/commons/a/a4/Flag_of_the_United_States.svg"
+            src="/uk.svg"
             onClick={() => toggleLanguage("en")}
             alt="English"
           />
@@ -71,7 +71,7 @@ const Navbar: React.FC = () => {
               </NavLinkWithScroll>
             </CNavItem>
             <CNavItem className="nav-link">
-            <NavLinkWithScroll scrollToId={isMobile  ? "servicosmobile" : "servicos"} >
+            <NavLinkWithScroll scrollToId={"servicos"} >
                 <StyledNavLink>{t("navbar.catalog")}</StyledNavLink>
               </NavLinkWithScroll>
             </CNavItem>
@@ -81,7 +81,7 @@ const Navbar: React.FC = () => {
               </NavLinkWithScroll>
             </CNavItem>
             <CNavItem className="nav-link">
-            <NavLinkWithScroll scrollToId={isMobile  ? "quemsomosmobile" : "quemsomos"} >
+            <NavLinkWithScroll scrollToId={"quemsomos"} >
                 <StyledNavLink>{t("navbar.aboutUs")}</StyledNavLink>
               </NavLinkWithScroll>
             </CNavItem>

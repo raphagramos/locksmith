@@ -6,7 +6,7 @@ import {
   mobile,
   desktopSmall,
   desktop,
-} from "../../../components/dimensions";
+} from "../../components/dimensions";
 WebFont.load({
   google: {
     families: ["Exo Soft:600", "Kanit"],
@@ -39,6 +39,7 @@ export const Section = styled.div`
   height: 75rem;
   display: grid;
   position: relative;
+  
   ${mobile} {
     width: 100%;
     background-image: url("/bghome1.png");
@@ -65,7 +66,87 @@ export const FirstSection = styled.div`
     padding-bottom: 1rem;
   }
 `;
+export const MarcasDiv2 = styled.div`
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1rem;
+  ${mobile}{
+    justify-content: center;
+    padding: 2rem;
+  }
+`;
+export const ServiceText = styled.h2`
+  font-family: "Oswald", sans-serif;
+  font-weight: 600;
+  color: #2900f7;
+  padding-left: 1rem;
+  width: 90%;
+  ${mobile} {
+    font-size: 14px;
+    width: 100%;
+    padding: 0rem 0rem 0rem 1rem;
+  }
+`;
+export const MarcasText = styled.h2`
+  padding: 1rem;
+  font-family: "Oswald", sans-serif;
+  font-weight: 600;
+  color: #2900f7;
+  width: 90%;
+  ${mobile} {
+    font-size: 14px;
+    width: 100%;
+    padding: 0rem 1rem 0rem 1rem;
+  }
+`;
+export const WhoText = styled.h2`
+  padding: 1rem;
+  font-family: "Oswald", sans-serif;
+  font-weight: 600;
+  color: #2900f7;
+  width: 90%;
+  ${mobile} {
+    font-size: 14px;
+    width: 100%;
+    padding: 0rem 0rem 0rem 1rem;
+  }
+`;
 
+export const MarcasTitle = styled.h1`
+  font-family: "Oswald", sans-serif;
+  font-weight: 600;
+  width: 50%;
+  padding: 0rem 1rem 0rem 1rem;
+  display: flex;
+  align-items: center;
+  background-color: #ffd83a;
+  border-radius: 2rem;
+  color: #2900f7;
+  font-size: 90px;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+  ${mobile} {
+    font-size: 30px;
+    width: 100%;
+  }
+`;
+
+export const WhoTitle = styled.h1`
+  font-family: "Oswald", sans-serif;
+  font-weight: 600;
+  padding: 0rem 1rem 0rem 1rem;
+  display: flex;
+  align-items: center;
+  border-radius: 2rem;
+  color: #2900f7;
+  font-size: 90px;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+  ${mobile} {
+    padding: 0rem 0rem 0rem 0rem;
+    font-size: 30px;
+    width: 100%;
+  }
+`;
 export const TitleTwo = styled.h1`
   font-family: "Oswald", sans-serif;
   font-weight: 600;
@@ -199,7 +280,6 @@ export const TitleFive = styled.div`
   ${mobile} {
     padding: 0.5rem;
     max-height: 10rem;
-    
   }
 `;
 
@@ -235,8 +315,12 @@ export const Subtitletwo = styled.h2`
 export const CallNowSub = styled.div`
   display: flex;
   align-items: center;
-  width: 77%;
   justify-content: flex-end;
+  width: 95%;
+
+  ${mobile} {
+    width: 90%;
+  }
 `;
 
 export const TelephoneIcon = styled.img`
@@ -269,10 +353,16 @@ export const HoursIcon = styled.img`
   margin-left: 2rem;
   margin-right: 2rem;
 `;
+export const HoursIconTwo = styled.img`
+  width: 18%;
+  height: auto;
+  align-self: center;
+  margin-left: 1rem;
+`;
 
 export const VanDiv = styled.div`
   justify-self: flex-end;
-  transition: transform 0.5s ease-out; 
+  transition: transform 0.5s ease-out;
 `;
 export const VanImage = styled.img`
   width: 100rem;
@@ -284,17 +374,119 @@ export const VanImage = styled.img`
   }
 `;
 
-export const ServicesImage = styled.img`
+export const ServicesContainer = styled.div`
+  display: flex; 
+  justify-content: space-between;
+  align-items: center;
   width: 100%;
-  margin-top: 6rem;
+  margin-top: 4rem;
+ ${mobile}{
+  justify-content: flex-end;
+ }
+`;
+export const WhoContainer = styled.div`
+  display: flex; 
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  ${mobile}{
+  justify-content: flex-end;
+ }
+`;
+
+export const ServicesText = styled.div`
+  padding: 2rem;
+  border-radius: 10px;
+  z-index: 1;
+  width: 50%;
+  margin-left: 5%;
   ${mobile} {
-    display: none;
+    width: 100%;
+    padding: 0rem;
+  }
+`;
+export const WhoTexts = styled.div`
+  padding: 2rem;
+  border-radius: 10px;
+  z-index: 1;
+  width: 50%;
+  margin-right: 5%;
+  ${mobile} {
+    width: 100%;
+    padding: 1rem 0rem 0rem 0rem;
+  }
+`;
+
+export const ServicesImage = styled.img`
+  width: 100%; /* Faz a imagem nunca ultrapassar a largura da tela */
+  max-width: 500px; /* Define um limite máximo, ajusta conforme necessário */
+  height: auto; /* Mantém a proporção */
+  margin-top: 6rem;
+  object-fit: cover;
+
+  ${mobile} {
+    width: 100%; /* Mantém o ajuste também no mobile */
+    max-width: 200px; /* Um limite menor se precisar */
+    margin-top: 2rem;
+    object-fit: contain;
+    content: url('/servicosmob.png'); 
   }
 `;
 export const ServicesImageTwo = styled.img`
-  width: 100%;
+  width: 100%; /* Faz a imagem nunca ultrapassar a largura da tela */
+  max-width: 500px; /* Define um limite máximo, ajusta conforme necessário */
+  height: auto; /* Mantém a proporção */
+  margin-top: 6rem;
+  object-fit: cover;
+
   ${mobile} {
-    display: none;
+    width: 100%; /* Mantém o ajuste também no mobile */
+    max-width: 200px; /* Um limite menor se precisar */
+    margin-top: 2rem;
+    object-fit: contain;
+    content: url('/quemsomosmob.png'); 
+  }
+`;
+
+
+
+export const ServiceItem = styled.div`
+  
+  margin-top: 0.5rem;
+`;
+
+export const ServiceTitle = styled.h2`
+  font-family: "Oswald", sans-serif;
+  font-weight: 600;
+  padding: 1rem;
+  color: #ffd83a;
+  width: 90%;
+  ${mobile} {
+    font-size: 16px;
+    width: 100%;
+    padding: 0rem 0rem 0rem 1rem;
+  }
+`;
+export const ServiceDescription = styled.p`
+  font-size: 1rem;
+`;
+
+export const TitleTwo2 = styled.div`
+  display: flex;
+  align-items: center;
+
+  ${mobile} {
+    margin-left: auto;
+    justify-content: flex-end; 
+  }
+`;
+
+export const Icon = styled.img`
+  margin-right: 10px;
+  width: 5rem;
+  vertical-align: middle;
+  ${mobile} {
+    width: 2rem;
   }
 `;
 
@@ -344,7 +536,7 @@ export const LocaleDiv = styled.div`
 export const PhoneNumber = styled.a.attrs({
   href: "tel:+351961195956",
 })`
- font-family: "Oswald", sans-serif;
+  font-family: "Oswald", sans-serif;
   font-size: 8rem;
   color: #ffd83a;
   text-decoration: none;
@@ -354,7 +546,10 @@ export const PhoneNumber = styled.a.attrs({
   }
 `;
 export const Marcas = styled.img`
-  width: 100%;
+  width: 40%;
+  ${mobile} {
+    width: 50%;
+  }
 `;
 
 export const ContactText = styled.a`
@@ -364,7 +559,7 @@ export const ContactText = styled.a`
   color: #2900f7;
   text-decoration: none;
   ${mobile} {
-    font-size: 10px;
+    font-size: 14px;
   }
 `;
 export const ContactText2 = styled.a`

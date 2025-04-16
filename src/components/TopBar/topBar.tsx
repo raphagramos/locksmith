@@ -2,7 +2,7 @@ import './topBar.css';
 import { Link } from 'react-router-dom';
 import React from 'react';
 import { useTranslation } from 'react-i18next';
-import { LanguageIconsMobile } from '../../src/pages/Home/HomeComponents';
+import { LanguageIconsMobile } from '../../pages/Home/HomeComponents';
 
 const TopBar: React.FC = () => {
   const { t,i18n } = useTranslation();

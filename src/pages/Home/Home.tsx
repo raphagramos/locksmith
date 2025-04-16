@@ -30,16 +30,28 @@ import {
   ContactDiv,
   SocialMedia,
   SocialMediaImage,
-  ServicesImageMobile,
-  ServicesImageTwoMobile,
   AtendemosDiv,
+  HoursIconTwo,
+  MarcasText,
+  MarcasTitle,
+  MarcasDiv2,
+  TitleTwo2,
+  Icon,
+  ServiceItem,
+  ServiceTitle,
+  ServicesContainer,
+  ServicesText,
+  WhoTexts,
+  WhoTitle,
+  WhoText,
+  WhoContainer,
+  ServiceText,
 } from "./HomeComponents";
 import "@fontsource/montserrat";
-import VanComponent from "../../../components/VanComponents";
+import VanComponent from "../../components/VanComponents";
 import React, { useEffect } from "react";
 // import BottomBar from "../../../components/BottomBar/bottomBar";
 import { useTranslation } from "react-i18next";
-import i18next from "i18next";
 
 const Home = () => {
   useEffect(() => {
@@ -70,15 +82,13 @@ const Home = () => {
           </SecondSection>
 
           <CallNowSub>
-            <a
-              href="tel:+351961195956"
-              style={{ textDecoration: "none" }}
-            >
+            <a href="tel:+351961195956" style={{ textDecoration: "none" }}>
               <TitleThree>
                 <WhatsappIcon src="/whatsapp.png" />
                 {t("home.CallYes")}
               </TitleThree>
             </a>
+            <HoursIconTwo src="/24H.png" />
           </CallNowSub>
           <VanComponent />
         </Section>
@@ -108,42 +118,56 @@ const Home = () => {
             <PhoneNumber>+351 961 195 956</PhoneNumber>
           </TitleFive>
         </LocaleDiv>
-        <ServicesImage
-          src={
-            i18next.language === "ptPT" ? "/servicos.png" : "/servicosENG.png"
-          }
-          id="servicos"
-        />
-        <ServicesImageTwo
-          src={
-            i18next.language === "ptPT" ? "/quemsomos.png" : "/quemsomosENG.png"
-          }
-          id="quemsomos"
-        />
-        <ServicesImageMobile
-          src={
-            i18next.language === "ptPT"
-              ? "/servicemobilePT.png"
-              : "/servicemobileENG.png"
-          }
-          id="servicosmobile"
-        />
-        <ServicesImageTwoMobile
-          src={
-            i18next.language === "ptPT"
-              ? "/whomobilePT.png"
-              : "/whomobileENG.png"
-          }
-          id="quemsomosmobile"
-        />
-        <Marcas src={
-            i18next.language === "ptPT"
-              ? "/marcas.jpg"
-              : "/marcasENG.png"
-          } />
-      </ThirdSection>
+         <ServicesContainer id="servicos">
+        <ServicesText>
+          <TitleTwo2>
+            <Icon src="/cadeado.png" alt="Ícone de cadeado" />
+            <WhoTitle>{t("services.title")}</WhoTitle>
+          </TitleTwo2>
 
+          <ServiceItem>
+            <ServiceTitle>{t("services.items.0.title")}</ServiceTitle>
+            <ServiceText>{t("services.items.0.text")}</ServiceText>
+          </ServiceItem>
+
+          <ServiceItem>
+            <ServiceTitle>{t("services.items.1.title")}</ServiceTitle>
+            <ServiceText>{t("services.items.1.text")}</ServiceText>
+          </ServiceItem>
+
+          <ServiceItem>
+            <ServiceTitle>{t("services.items.2.title")}</ServiceTitle>
+            <ServiceText>{t("services.items.2.text")}</ServiceText>
+          </ServiceItem>
+        </ServicesText>
+
+        <ServicesImage src="/servicos.png" id="servicos" />
+      </ServicesContainer>
+
+      <WhoContainer id="quemsomos">
+        <ServicesImageTwo src="/quemsomos.png" id="servicos" />
+        <WhoTexts>
+          <TitleTwo2>
+            <Icon src="/who.png" alt="Ícone de cadeado" />
+            <WhoTitle>{t("about.title")}</WhoTitle>
+          </TitleTwo2>
+          <ServiceItem>
+            <WhoText>{t("about.intro")}</WhoText>
+            <WhoText>{t("about.text1")}</WhoText>
+            <WhoText>{t("about.text2")}</WhoText>
+          </ServiceItem>
+        </WhoTexts>
+      </WhoContainer>
+      </ThirdSection>
       <MarcasDiv>
+        <MarcasDiv2>
+          <div style={{ width: "100%" }}>
+            <MarcasTitle>{t("brands.title")}</MarcasTitle>
+            <MarcasText>{t("brands.text")}</MarcasText>
+          </div>
+          <Marcas src={"/marcas.png"} />
+        </MarcasDiv2>
+
         <TextoMarcasDiv>
           <a
             href="https://wa.me/message/SXGUDW4HN3U4J1"
@@ -155,7 +179,6 @@ const Home = () => {
             </TitleThree>
           </a>
         </TextoMarcasDiv>
-
         <ContactDiv id="contato">
           <SocialMedia>
             <ContactText>{t("home.Redes")}</ContactText>

@@ -84,8 +84,34 @@
                 "description": "If you need immediate assistance, contact us via WhatsApp.",
                 "declineButton": "No, thanks",
                 "acceptButton": "Yes, call now"
-              }
+              },
           
-
+"services": {
+    "title": "OUR SERVICES",
+    "items": [
+      {
+        "title": "Locks for armored doors.",
+        "text": "Lock replacement, latch and turn opening, maintenance, key code changes, cylinders and lubrication."
+      },
+      {
+        "title": "2 and 4 bolt locks.",
+        "text": "Lock replacement, latch and turn openings, adjustment and lubrication."
+      },
+      {
+        "title": "Electric lock.",
+        "text": "Lock replacement, latch and turn openings, adjustment and lubrication."
+      }
+    ]
+  },
+  "about": {
+    "title": "ABOUT US",
+    "intro": "Get to know Casa de Chaves Don Pedro.",
+    "text1": "We are a company dedicated to providing locksmith services with excellence and commitment. With years of experience, we have earned the trust of our clients by delivering efficient and secure solutions for their needs.",
+    "text2": "Our highly qualified team is ready to assist you, whether in emergency situations or scheduled services. We value customer satisfaction and quality in every job we perform."
+  },
+  "brands": {
+    "title": "BRANDS WE WORK WITH:",
+    "text": "DEDICATION REFLECTED IN TRUSTED PARTNERSHIPS. TRUST CASA DE CHAVES DON PEDRO FOR YOUR HOME OR VEHICLE SECURITY."
+  }
   }
   

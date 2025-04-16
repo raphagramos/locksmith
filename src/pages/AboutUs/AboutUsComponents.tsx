@@ -5,7 +5,7 @@ WebFont.load({
     families: ["Exo Soft:600", "Kanit"],
   },
 });
-import { mobile, mobilemin } from "../../../components/dimensions";
+import { mobile, mobilemin } from "../../components/dimensions";
 const CommonTextStyles = `
   font-family: 'Kanit', sans-serif;
   font-weight: 300;

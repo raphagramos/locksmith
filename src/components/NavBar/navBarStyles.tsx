@@ -1,6 +1,6 @@
 import styled from "styled-components";
 import { CContainer, CNavLink, CNavbar, CNavbarNav } from "@coreui/react";
-import { mobile,desktop } from "../../components/dimensions";
+import { mobile,desktop } from "../dimensions";
 import WebFont from "webfontloader";
 
 WebFont.load({

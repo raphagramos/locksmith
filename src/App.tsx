@@ -1,7 +1,7 @@
 // App.js
 
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
-import Navbar from "../components/NavBar/navBar.tsx";
+import Navbar from "./components/NavBar/navBar.tsx";
 import Catalogo from "./pages/Catalogo/catalogo.tsx";
 import AboutUs from "./pages/AboutUs/aboutUs.tsx";
 import ContactUs from "./pages/ContactUs/contactUs.tsx";
