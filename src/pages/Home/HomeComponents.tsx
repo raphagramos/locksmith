@@ -241,6 +241,11 @@ export const PhoneTitle = styled.h2`
     white-space: nowrap;
     text-align: center;
   }
+  ${mobilemin} {
+    font-size: 23px; 
+    white-space: nowrap;
+    text-align: center;
+  }
 `;
 
 
