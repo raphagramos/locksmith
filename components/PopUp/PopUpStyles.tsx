@@ -1,4 +1,3 @@
-import Popup from "reactjs-popup";
 import styled from "styled-components";
 import { mobile,desktop } from "../dimensions";
 

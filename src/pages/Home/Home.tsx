@@ -15,64 +15,70 @@ import {
   ImageSection,
   ThirdSection,
   PhoneTitle,
-  LanguageIconsMobile,
+  WhatsappIcon,
 } from "./HomeComponents";
 import "@fontsource/montserrat";
-import React from 'react';
+import React from "react";
 import BottomBar from "../../../components/BottomBar/bottomBar";
-import { useTranslation } from 'react-i18next';
+import { useTranslation } from "react-i18next";
 
 const Home = () => {
   const { t } = useTranslation();
-  
+
   return (
     <HomeContainer>
-      <HomeImg src="home.webp" alt={t('home.mainImageAlt')} />
+      <HomeImg src="home.webp" alt={t("home.mainImageAlt")} />
+      <div style={{ width: "100%", padding: "0 1rem", marginTop: "1rem" }}>
+            <PhoneLink to="tel:+351961195956">
+              <PhoneTitle>
+                <img src="telefone.webp" alt={t("home.phoneIconAlt")} />
+                {t("home.phoneCallText")}
+              </PhoneTitle>
+            </PhoneLink>
+          </div>
       <Section>
-        <GenericTexts>        
-          <Hometitle>{t('home.serviceTitle')}</Hometitle>
+     
+        <GenericTexts>
+          
+          <Hometitle>{t("home.serviceTitle")}</Hometitle>
           <Subtitle>
-            {t('home.serviceLocations')}<br/>{t('home.serviceHours')}
+            {t("home.serviceLocations")}
+            <br />
+            {t("home.serviceHours")}
           </Subtitle>
-          <Subtitle>{t('home.serviceDescription')}</Subtitle>
-          <PhoneLink to="tel:+351961195956">
-            <PhoneTitle>
-              <img src="telefone.webp" alt={t('home.phoneIconAlt')} />
-              {t('home.phoneCallText')}
-            </PhoneTitle>
-          </PhoneLink>
+          <Subtitle>{t("home.serviceDescription")}</Subtitle>
         </GenericTexts>
         <ImageSection>
-          <img src="Chaveiro1.webp" alt={t('home.locksmithImageAlt')} />
+          <img src="Chaveiro1.webp" alt={t("home.locksmithImageAlt")} />
         </ImageSection>
       </Section>
 
       <FirstSection>
         <GenericTextstwo>
-          <TitleTwo>{t('home.emergenciesTitle')}</TitleTwo>
-          <TextsTwo>{t('home.emergenciesDescription')}</TextsTwo>
-          <TitleTwo>{t('home.qualityTitle')}</TitleTwo>
-          <TextsTwo>{t('home.qualityDescription')}</TextsTwo>
+          <TitleTwo>{t("home.emergenciesTitle")}</TitleTwo>
+          <TextsTwo>{t("home.emergenciesDescription")}</TextsTwo>
+          <TitleTwo>{t("home.qualityTitle")}</TitleTwo>
+          <TextsTwo>{t("home.qualityDescription")}</TextsTwo>
           <PhoneLink to="https://wa.me/message/SXGUDW4HN3U4J1">
             <PhoneTitleTwo>
-              <img src="whatsapp1.webp" alt={t('home.whatsappIconAlt')} />
-              {t('home.whatsappText')}
+              <WhatsappIcon src="whatsapp1.webp" alt={t("home.whatsappIconAlt")} />
+              {t("home.whatsappText")}
             </PhoneTitleTwo>
           </PhoneLink>
         </GenericTextstwo>
         <ImageSection>
-          <img src="abrecarro.webp" alt={t('home.carUnlockImageAlt')} />
+          <img src="abrecarro.webp" alt={t("home.carUnlockImageAlt")} />
         </ImageSection>
       </FirstSection>
 
       <ThirdSection>
         <GenericTexts>
-          <Hometitle>{t('home.brandsTitle')}</Hometitle>
-          <Subtitle>{t('home.brandsSubtitle')}</Subtitle>
-          <TextsThree>{t('home.brandsDescription')}</TextsThree>
+          <Hometitle>{t("home.brandsTitle")}</Hometitle>
+          <Subtitle>{t("home.brandsSubtitle")}</Subtitle>
+          <TextsThree>{t("home.brandsDescription")}</TextsThree>
         </GenericTexts>
         <ImageSection>
-          <img src="empresas.webp" alt={t('home.brandsImageAlt')} />
+          <img src="empresas.webp" alt={t("home.brandsImageAlt")} />
         </ImageSection>
       </ThirdSection>
       <BottomBar />

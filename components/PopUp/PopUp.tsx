@@ -55,7 +55,7 @@ const PopUp: React.FC = () => {
                 className="custom-button-green text-blue-500 hover:text-blue-600 px-4 py-2 rounded"
                 onClick={() => setShowModal(false)}
               >
-                <FaWhatsapp className="mr-2" /> {t('popUp.acceptButton')}
+                  <img src='telefone.webp' style={{width: "1.2rem"}}/> {t('popUp.acceptButton')}
               </Button>
             </StyledButtonDesktop>
             <StyledButtonMobile
@@ -67,7 +67,7 @@ const PopUp: React.FC = () => {
                 className="custom-button-green text-blue-500 hover:text-blue-600 px-4 py-2 rounded"
                 onClick={() => setShowModal(false)}
               >
-                <FaWhatsapp className="mr-2" /> {t('popUp.acceptButton')}
+                  <img src='telefone.webp' style={{width: "1.2rem"}}/> {t('popUp.acceptButton')}
               </Button>
             </StyledButtonMobile>
           </div>

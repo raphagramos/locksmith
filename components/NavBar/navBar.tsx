@@ -81,13 +81,13 @@ const Navbar: React.FC = () => {
           <LanguageIcons>
             <img 
               style={{ width: "2rem", cursor: "pointer", margin: "0 0.5rem" }} 
-              src='https://upload.wikimedia.org/wikipedia/commons/5/5c/Flag_of_Portugal.svg' 
+              src='pt.svg' 
               onClick={() => toggleLanguage('ptPT')} 
               alt="Portuguese" 
             />
             <img 
               style={{ width: "2rem", cursor: "pointer", margin: "0 0.5rem" }} 
-              src='https://upload.wikimedia.org/wikipedia/commons/a/a4/Flag_of_the_United_States.svg' 
+              src='uk.svg' 
               onClick={() => toggleLanguage('en')} 
               alt="English" 
             />

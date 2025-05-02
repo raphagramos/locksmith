@@ -204,88 +204,121 @@ export const Subtitletwo = styled.h2`
   ${CommonTextStyles}
   color: black;
   font-weight: bold;
-  font-size: 24px;
+  font-size: 30px;
   margin-top: 1rem;
+`;
+export const WhatsappIcon = styled.img`
+  width: 4rem;
+  margin-right: 1rem;
+  
+  ${mobile} {
+    width: 5rem;  
+    margin-right: 0.5rem; 
+  }
+
+  ${mobilemin} {
+    width: 5rem; 
+    margin-right: 0.5rem;
+  }
 `;
 export const PhoneTitle = styled.h2`
   ${CommonTextStyles}
-
-  color: rgb(16, 42, 116);
+  color: white;
   font-weight: bold;
-  font-size: 24px;
+  font-size: 40px;
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
-  margin-top: 1rem;
+  margin: 0;
+  line-height: 1;
+  white-space: nowrap;
+
   &:hover {
-    color:rgba(245, 171, 38,0.8);
+    color: rgb(16, 42, 116);
     transition: color 0.5s ease;
   }
 
   ${mobile} {
-    display:flex;
-    font-size: 20px;
-    margin-right:1.5rem;
+    font-size: 25px; 
+    white-space: nowrap;
+    text-align: center;
   }
 `;
+
 
 export const PhoneTitleTwo = styled.h2`
   ${CommonTextStyles}
 
   color: white;
   font-weight: bold;
-  font-size: 24px;
+  font-size: 35px;
+  white-space: nowrap;
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
-  margin-top: 1rem;
+
   &:hover {
-    color:rgb(16, 42, 116);
+    color: rgb(16, 42, 116);
     transition: color 0.5s ease;
   }
 
-    ${mobile} {
-      display:flex;
-      font-size: 20px;
-      margin-right:1.5rem;
-    }
-    ${mobilemin} {
-      font-size: 20px;
-      display:flex;
-      margin-right:1.5rem;
-      height:3rem;
-      margin-bottom:3rem;
-    }
+  ${mobile} {
+    display: flex;
+    
+    font-size: 30px;
+    white-space: normal;
+    margin-right: 1.5rem;
+    align-items: center;  
+  }
+
+  ${mobilemin} {
+    font-size: 30px;  
+    display: flex;
+    margin-top: 0rem;
+    white-space: normal;
+    align-items: center; 
+  }
 `;
+
 
 const PhoneLink = styled(Link)`
   ${CommonTextStyles}
   display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
   text-decoration: none;
-  color: inherit;
-  margin-top: 4rem;
-  border-radius: 1rem;
-  gap:0.2rem;
-  p {
-    display: flex;
-    align-items: center;
-    gap: 0.5rem;
-    font-weight: bold;
-  }
+  color: white;
+ 
+  background-color: #25D366;
+  border-radius: 999px;
+  padding: 1.5rem 2.5rem; /* altura fixa */
+  font-size: 1.2rem;
+  font-weight: bold;
+  gap: 0.8rem;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+  transition: all 0.3s ease;
 
   img {
-    margin: 0rem 1rem;
-    width: 3rem;
+    width: 2rem;
     height: auto;
   }
-  ${mobile} {
-    display:block;
-    width: 100% ;
-    margin-bottom:2rem;
 
-
-    img {
-      width: 2.8rem;
-    }    
+  &:hover {
+    background-color: #1ebe5d;
+    transform: scale(1.05);
   }
 
+  &:active {
+    transform: scale(0.96);
+  }
+
+  ${mobile} {
+    padding: 1.5rem 2.5rem;
+    margin-bottom: 1.5rem;
+    font-size: 1.4rem;
+    img {
+      width: 2.5rem;
+    }
+  }
 `;
+
 
 const ImageContainer = styled.div``;
 
