@@ -2,7 +2,7 @@
     "aboutUs": {
       "alt": "About Us",
       "title": "Who We Are",
-      "subtitle": "Get to Know Casa de Chaves Don Pedro",
+      "subtitle": "Get to Know Casa de Chaves Don Juan",
       "description1": "We are a company dedicated to offering locksmith services with excellence and commitment. With years of experience, we have earned the trust of our customers by providing efficient and safe solutions for their needs.",
       "description2": "Our highly qualified team is ready to serve you, whether for emergency situations or scheduled services. We value customer satisfaction and quality in every job we do."
     },
@@ -40,20 +40,20 @@
           "serviceHours": "24 HOURS",
           "REQUEST_QUOTE": "ASK FOR A QUOTE VIA WHATSAPP ",
           "Redes":"Follow our social media:",
-          "serviceDescription": "Casa de Chaves Don Pedro, your choice for 24-hour locksmith services. Quick and safe openings, anytime of the day. Your security is our priority.",
+          "serviceDescription": "Casa de Chaves Don Juan, your choice for 24-hour locksmith services. Quick and safe openings, anytime of the day. Your security is our priority.",
           "phoneIconAlt": "Phone icon",
           "phoneCallText": "Call now, 24-hour Locksmith",
           "locksmithImageAlt": "Locksmith",
           "emergenciesTitle": "Emergencies Solved",
           "emergenciesDescription": "Quick solutions for critical moments. Locked your keys in the car? Door locked? 24-hour service, quick, efficient, and safe. Peace of mind in every emergency.",
           "qualityTitle": "Guaranteed Quality",
-          "qualityDescription": "Commitment to quality. Satisfied clients, exceptional services. Be part of the Casa de Chaves Don Pedro experience.",
+          "qualityDescription": "Commitment to quality. Satisfied clients, exceptional services. Be part of the Casa de Chaves Don Juan experience.",
           "whatsappIconAlt": "WhatsApp icon",
           "whatsappText": "Request a quote now via WhatsApp",
           "carUnlockImageAlt": "Car Unlocking",
           "brandsTitle": "Brands:",
           "brandsSubtitle": "Brands we work with:",
-          "brandsDescription": "Dedication reflected in trusted partnerships. Trust Casa de Chaves Don Pedro for the security of your home or vehicle.",
+          "brandsDescription": "Dedication reflected in trusted partnerships. Trust Casa de Chaves Don Juan for the security of your home or vehicle.",
           "brandsImageAlt": "Brands"
         },
       
@@ -105,13 +105,14 @@
   },
   "about": {
     "title": "ABOUT US",
-    "intro": "Get to know Casa de Chaves Don Pedro.",
+    "intro": "Get to know Casa de Chaves Don Juan.",
     "text1": "We are a company dedicated to providing locksmith services with excellence and commitment. With years of experience, we have earned the trust of our clients by delivering efficient and secure solutions for their needs.",
     "text2": "Our highly qualified team is ready to assist you, whether in emergency situations or scheduled services. We value customer satisfaction and quality in every job we perform."
   },
   "brands": {
     "title": "BRANDS WE WORK WITH:",
-    "text": "DEDICATION REFLECTED IN TRUSTED PARTNERSHIPS. TRUST CASA DE CHAVES DON PEDRO FOR YOUR HOME OR VEHICLE SECURITY."
+    "text": "DEDICATION REFLECTED IN TRUSTED PARTNERSHIPS.",
+    "text1": " TRUST CASA DE CHAVES DON JUAN FOR YOUR HOME OR VEHICLE SECURITY."
   }
   }
   

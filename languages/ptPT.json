@@ -2,7 +2,7 @@
     "aboutUs": {
       "alt": "Sobre Nós",
       "title": "Quem Somos",
-      "subtitle": "Conheça a Casa de Chaves Don Pedro",
+      "subtitle": "Conheça a Casa de Chaves Don Juan",
       "description1": "Somos uma empresa dedicada a oferecer serviços de chaveiro com excelência e comprometimento. Com anos de experiência, conquistamos a confiança de nossos clientes, proporcionando soluções eficientes e seguras para suas necessidades.",
       "description2": "Nossa equipe altamente qualificada está pronta para atendê-lo, seja para situações de emergência ou serviços programados. Valorizamos a satisfação do cliente e a qualidade em cada trabalho realizado."
     },
@@ -39,20 +39,20 @@
       "serviceHours": "24 HORAS",
       "REQUEST_QUOTE": "SOLICITE UM ORÇAMENTO VIA WHATSAPP",
       "Redes":"Siga nossas redes:",
-      "serviceDescription": "Casa de Chaves Don Pedro, a sua escolha para serviços de chaveiro 24. Aberturas rápidas e seguras, a qualquer hora do dia. Sua segurança, nossa prioridade.",
+      "serviceDescription": "Casa de Chaves Don Juan, a sua escolha para serviços de chaveiro 24. Aberturas rápidas e seguras, a qualquer hora do dia. Sua segurança, nossa prioridade.",
       "phoneIconAlt": "Ícone de telefone",
       "phoneCallText": "Ligue já, Chaveiro 24 horas",
       "locksmithImageAlt": "Chaveiro",
       "emergenciesTitle": "Emergências Resolvidas",
       "emergenciesDescription": "Soluções rápidas para momentos críticos. Esqueceu sua chave dentro do carro? Porta trancada? Atendimento 24 horas, rápido, eficiente, seguro. Tranquilidade em cada emergência.",
       "qualityTitle": "Qualidade Garantida",
-      "qualityDescription": "Compromisso com a qualidade. Clientes satisfeitos, serviços excepcionais. Seja parte da experiência Casa de Chaves Don Pedro.",
+      "qualityDescription": "Compromisso com a qualidade. Clientes satisfeitos, serviços excepcionais. Seja parte da experiência Casa de Chaves Don Juan.",
       "whatsappIconAlt": "Ícone de WhatsApp",
       "whatsappText": "Solicite agora um orçamento via WhatsApp",
       "carUnlockImageAlt": "Abertura de Carro",
       "brandsTitle": "Marcas:",
       "brandsSubtitle": "Marcas que trabalhamos:",
-      "brandsDescription": "Dedicação refletida em parcerias de confiança. Confie na Casa de Chaves Don Pedro para a segurança da sua casa ou veículo.",
+      "brandsDescription": "Dedicação refletida em parcerias de confiança. Confie na Casa de Chaves Don Juan para a segurança da sua casa ou veículo.",
       "brandsImageAlt": "Marcas"
     },
       
@@ -103,13 +103,14 @@
   },
   "about": {
     "title": "QUEM SOMOS",
-    "intro": "Conheça a Casa de Chaves Don Pedro.",
+    "intro": "Conheça a Casa de Chaves Don Juan.",
     "text1": "Somos uma empresa dedicada a oferecer serviços de chaveiro com excelência e comprometimento. Com anos de experiência, conquistamos a confiança de nossos clientes, proporcionando soluçóes eficientes e seguras para suas necessidades.",
     "text2": "Nossa equipe altamente qualificada está pronta para atendê-lo, seia para situações de emergência ou serviços programados. Valorizamos a satisfação do cliente e a qualidade em cada trabalho realizado."
   },
   "brands": {
     "title": "MARCAS QUE TRABALHAMOS:",
-    "text": "DEDICAÇÃO REFLETIDA EM PARCERIAS DE CONFIANÇA. CONFIE NA CASA DE CHAVES DON PEDRO PARA A SEGURANÇA DA SUA CASA OU VEÍCULO."
+    "text": "DEDICAÇÃO REFLETIDA EM PARCERIAS DE CONFIANÇA",
+    "text1": "CONFIE NA CASA DE CHAVES DON JUAN PARA A SEGURANÇA DA SUA CASA OU VEÍCULO."
   }
   }
   

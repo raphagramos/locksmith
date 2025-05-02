@@ -1,6 +1,6 @@
-#Casa de Chaves Don Pedro
+#Casa de Chaves Don Juan
 #Description
-This project is a fictional website for "Casa de Chaves Don Pedro," a locksmith services company. The site is built using React and Styled Components for styling.
+This project is a fictional website for "Casa de Chaves Don Juan," a locksmith services company. The site is built using React and Styled Components for styling.
 
 #Main Pages
 Home: Presents the main services and information about the company.

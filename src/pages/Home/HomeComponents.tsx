@@ -6,6 +6,7 @@ import {
   mobile,
   desktopSmall,
   desktop,
+  desktopLarge,
 } from "../../components/dimensions";
 WebFont.load({
   google: {
@@ -33,7 +34,7 @@ export const StyledImageContainer = styled.div`
 `;
 
 export const Section = styled.div`
-  background-image: url("/bghome.png");
+  background-image: url("/bghome.webp");
 
   width: 100%;
   height: 75rem;
@@ -42,19 +43,25 @@ export const Section = styled.div`
   
   ${mobile} {
     width: 100%;
-    background-image: url("/bghome1.png");
+    background-image: url("/bghome1.webp");
     background-size: cover;
     height: 21.5rem;
   }
   ${mobilemin} {
     width: 100%;
-    background-image: url("/bghome2.png");
+    background-image: url("/bghome2.webp");
     background-size: cover;
     height: 22rem;
   }
   ${desktopSmall} {
-    background-image: url("/bghome.png");
+    background-image: url("/bghome.webp");
   }
+  ${desktopLarge} {
+    background-size: contain; 
+    background-position: top right;
+    background-repeat: no-repeat;
+  }
+
 `;
 
 export const FirstSection = styled.div`
@@ -67,13 +74,13 @@ export const FirstSection = styled.div`
   }
 `;
 export const MarcasDiv2 = styled.div`
-  display: flex;
+
   align-items: center;
   justify-content: space-between;
-  padding: 1rem;
+  padding: 0.5rem;
   ${mobile}{
     justify-content: center;
-    padding: 2rem;
+ 
   }
 `;
 export const ServiceText = styled.h2`
@@ -93,7 +100,10 @@ export const MarcasText = styled.h2`
   font-family: "Oswald", sans-serif;
   font-weight: 600;
   color: #2900f7;
-  width: 90%;
+display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
   ${mobile} {
     font-size: 14px;
     width: 100%;
@@ -116,9 +126,10 @@ export const WhoText = styled.h2`
 export const MarcasTitle = styled.h1`
   font-family: "Oswald", sans-serif;
   font-weight: 600;
-  width: 50%;
+  width: 100%;
   padding: 0rem 1rem 0rem 1rem;
   display: flex;
+  justify-content: center;
   align-items: center;
   background-color: #ffd83a;
   border-radius: 2rem;
@@ -429,7 +440,7 @@ export const ServicesImage = styled.img`
     max-width: 200px; /* Um limite menor se precisar */
     margin-top: 2rem;
     object-fit: contain;
-    content: url('/servicosmob.png'); 
+    content: url('/servicosmob.webp'); 
   }
 `;
 export const ServicesImageTwo = styled.img`
@@ -444,7 +455,7 @@ export const ServicesImageTwo = styled.img`
     max-width: 200px; /* Um limite menor se precisar */
     margin-top: 2rem;
     object-fit: contain;
-    content: url('/quemsomosmob.png'); 
+    content: url('/quemsomosmob.webp'); 
   }
 `;
 
@@ -546,10 +557,8 @@ export const PhoneNumber = styled.a.attrs({
   }
 `;
 export const Marcas = styled.img`
-  width: 40%;
-  ${mobile} {
-    width: 50%;
-  }
+  width: 100%;
+  margin-top: 1rem;
 `;
 
 export const ContactText = styled.a`
@@ -607,3 +616,11 @@ export const SocialMediaImage = styled.img`
     margin-right: 0.5rem;
   }
 `;
+export const MarcasDivTexts = styled.div`
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+`

@@ -51,7 +51,7 @@ const VanComponent = () => {
 
   return (
     <VanDiv style={{ transform: `translateX(${offset}px)` }}>
-      <VanImage src="/VAN.png" />
+      <VanImage src="/VAN.webp" />
     </VanDiv>
   );
 };

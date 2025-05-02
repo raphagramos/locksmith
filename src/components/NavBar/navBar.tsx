@@ -1,4 +1,3 @@
-import React from "react";
 import { useTranslation } from "react-i18next";
 import { CNavItem } from "@coreui/react";
 import {
@@ -14,6 +13,7 @@ import {
 } from "./navBarStyles";
 import "@coreui/coreui/dist/css/coreui.min.css";
 import useIsMobile from "../IsMobile";
+import React from "react";
 const NavLinkWithScroll: React.FC<{ scrollToId: string; children: React.ReactNode }> = ({ scrollToId, children }) => {
   const handleNavLinkClick = (event: React.MouseEvent) => {
     event.preventDefault();
@@ -54,16 +54,18 @@ const Navbar: React.FC = () => {
         </LanguageIcons>
         <NavLinkWithScroll scrollToId="homepage">
           <span className="navbar-brand">
-            <Img src="/LOGO.png" alt={t("navbar.logoAlt")} />
+            <Img src="/LOGO.webp" alt={t("navbar.logoAlt")} />
           </span>
         </NavLinkWithScroll>
 
         {/* Mantendo os itens sempre visíveis */}
 
         <StyledCNavbarNav className="navbar-nav" style={{ display: "flex", flexDirection: "row" }}>
+          {isMobile &&
           <div>
-            <MobileImg src="/LOGO.png" alt={t("navbar.logoAlt")} />
+            <MobileImg src="/LOGO.webp" alt={t("navbar.logoAlt")} />
           </div>
+          }
           <MenusDiv>
             <CNavItem className="nav-link">
               <NavLinkWithScroll scrollToId="homepage">

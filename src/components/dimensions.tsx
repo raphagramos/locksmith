@@ -6,3 +6,4 @@ export const desktopSmall = '@media screen and (min-width: 768px) and (max-width
 
 // Telas Full HD ou maiores (1920px+)
 export const desktop = '@media screen and (min-width: 1920px) and (max-width: 3000px)';
+export const desktopLarge = '@media (min-width: 1600px)';
