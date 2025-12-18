@@ -34,34 +34,33 @@ export const StyledImageContainer = styled.div`
 `;
 
 export const Section = styled.div`
-  background-image: url("/bghome.webp");
-
   width: 100%;
-  height: 75rem;
   display: grid;
   position: relative;
-  
+
+  /* 🔵 PADRÃO DESKTOP */
+  background-image: url("/bghome.webp");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  min-height: 60rem;
+
+
   ${mobile} {
-    width: 100%;
-    background-image: url("/bghome1.webp");
-    background-size: cover;
-    height: 21.5rem;
+    min-height: 10rem;
+    background-position: 40% center;
   }
-  ${mobilemin} {
-    width: 100%;
-    background-image: url("/bghome2.webp");
-    background-size: cover;
-    height: 22rem;
-  }
+  /* 🖥️ DESKTOP SMALL */
   ${desktopSmall} {
     background-image: url("/bghome.webp");
   }
+
+  /* 🖥️ DESKTOP LARGE (AJUSTE FINO) */
   ${desktopLarge} {
-    background-size: contain; 
+    background-size: cover;
     background-position: top right;
     background-repeat: no-repeat;
   }
-
 `;
 
 export const FirstSection = styled.div`
@@ -74,13 +73,11 @@ export const FirstSection = styled.div`
   }
 `;
 export const MarcasDiv2 = styled.div`
-
   align-items: center;
   justify-content: space-between;
   padding: 0.5rem;
-  ${mobile}{
+  ${mobile} {
     justify-content: center;
- 
   }
 `;
 export const ServiceText = styled.h2`
@@ -100,7 +97,7 @@ export const MarcasText = styled.h2`
   font-family: "Oswald", sans-serif;
   font-weight: 600;
   color: #2900f7;
-display: flex;
+  display: flex;
   justify-content: center;
   align-items: center;
   width: 100%;
@@ -165,11 +162,15 @@ export const TitleTwo = styled.h1`
   padding: 1rem;
   display: flex;
   align-items: center;
-  background-color: #ffd83a;
+  background-color: #13ff42;
   border-radius: 2rem;
-  color: #2900f7;
-  font-size: 120px;
+  color: #ffffff;
+  font-size: 90px;
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+  &:hover {
+    color: #ffd83a;
+    transition: color 0.4s ease;
+  }
   ${mobile} {
     font-size: 20px;
     margin-left: 1rem;
@@ -213,17 +214,18 @@ export const TextoMarcas = styled.h2`
 export const TitleThree = styled.h1`
   font-family: "Oswald", sans-serif;
   font-weight: 600;
+  margin: 0;
   align-self: center;
-  background-color: #ffd83a;
+  background-color: #13ff42;
   display: flex;
   align-items: center;
   justify-content: center;
   padding: 0.5rem 1rem;
   border-radius: 2rem;
-  color: #2900f7;
-  font-size: 90px;
+  color: #ffffff;
+  font-size: 70px;
   &:hover {
-    color: white;
+    color: #ffd83a;
     transition: color 0.4s ease;
   }
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
@@ -295,7 +297,6 @@ export const TitleFive = styled.div`
 `;
 
 export const CallNow = styled.div`
-  margin-top: 5rem;
   display: flex;
 
   align-items: center;
@@ -314,7 +315,7 @@ export const Subtitletwo = styled.h2`
   width: 65%;
   border-radius: 2rem;
   color: #ffd83a;
-  font-size: 55px;
+  font-size: 25px;
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
   ${mobile} {
     font-size: 12px;
@@ -328,14 +329,13 @@ export const CallNowSub = styled.div`
   align-items: center;
   justify-content: flex-end;
   width: 95%;
-
   ${mobile} {
     width: 90%;
   }
 `;
 
 export const TelephoneIcon = styled.img`
-  width: 18rem;
+  width: 10rem;
   margin-left: 2rem;
   ${mobile} {
     width: 4rem;
@@ -343,7 +343,7 @@ export const TelephoneIcon = styled.img`
   }
 `;
 export const WhatsappIcon = styled.img`
-  width: 8rem;
+  width: 5rem;
   margin-right: 1rem;
   ${mobile} {
     width: 3rem;
@@ -365,10 +365,12 @@ export const HoursIcon = styled.img`
   margin-right: 2rem;
 `;
 export const HoursIconTwo = styled.img`
-  width: 18%;
-  height: auto;
+  width: 8%;
   align-self: center;
   margin-left: 1rem;
+  ${mobile} {
+    width: 18%;
+  }
 `;
 
 export const VanDiv = styled.div`
@@ -376,33 +378,33 @@ export const VanDiv = styled.div`
   transition: transform 0.5s ease-out;
 `;
 export const VanImage = styled.img`
-  width: 100rem;
+  width: 45rem;
   max-width: 100%;
 
   ${mobile} {
-    width: 20rem;
+    width: 15rem;
     max-width: 100%;
   }
 `;
 
 export const ServicesContainer = styled.div`
-  display: flex; 
+  display: flex;
   justify-content: space-between;
   align-items: center;
   width: 100%;
   margin-top: 4rem;
- ${mobile}{
-  justify-content: flex-end;
- }
+  ${mobile} {
+    justify-content: flex-end;
+  }
 `;
 export const WhoContainer = styled.div`
-  display: flex; 
+  display: flex;
   justify-content: space-between;
   align-items: center;
   width: 100%;
-  ${mobile}{
-  justify-content: flex-end;
- }
+  ${mobile} {
+    justify-content: flex-end;
+  }
 `;
 
 export const ServicesText = styled.div`
@@ -440,7 +442,7 @@ export const ServicesImage = styled.img`
     max-width: 200px; /* Um limite menor se precisar */
     margin-top: 2rem;
     object-fit: contain;
-    content: url('/servicosmob.webp'); 
+    content: url("/servicosmob.webp");
   }
 `;
 export const ServicesImageTwo = styled.img`
@@ -455,14 +457,11 @@ export const ServicesImageTwo = styled.img`
     max-width: 200px; /* Um limite menor se precisar */
     margin-top: 2rem;
     object-fit: contain;
-    content: url('/quemsomosmob.webp'); 
+    content: url("/quemsomosmob.webp");
   }
 `;
 
-
-
 export const ServiceItem = styled.div`
-  
   margin-top: 0.5rem;
 `;
 
@@ -488,7 +487,7 @@ export const TitleTwo2 = styled.div`
 
   ${mobile} {
     margin-left: auto;
-    justify-content: flex-end; 
+    justify-content: flex-end;
   }
 `;
 
@@ -529,12 +528,16 @@ export const SecondSection = styled.div`
   display: flex;
   justify-content: flex-end;
   width: 100%;
+  height: 0;
+  ${mobile} {
+    height: 100%;
+  }
 `;
 
 export const HomeSeparator = styled.div`
-  height: 20rem;
+  height: 5rem;
   ${mobile} {
-    height: 2rem;
+    height: 1rem;
   }
 `;
 
@@ -617,10 +620,10 @@ export const SocialMediaImage = styled.img`
   }
 `;
 export const MarcasDivTexts = styled.div`
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-`
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+`;

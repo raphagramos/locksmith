@@ -38,7 +38,7 @@ const Navbar: React.FC = () => {
   };
 
   return (
-    <StyledCnavbar expand="lg" colorScheme="light" style={{ position: "relative" }}>
+    <StyledCnavbar expand="md" colorScheme="light" style={{ position: "relative" }}>
       <StyledCCointainer fluid>
         <LanguageIcons>
           <LanguageIconsImg

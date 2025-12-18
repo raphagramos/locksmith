@@ -76,7 +76,9 @@ const Home = () => {
         <Section>
           <CallNow>
             <TelephoneIcon src="/tel.webp" />
-            <TitleTwo>{t("home.callNow")}</TitleTwo>
+            <a href="tel:+351961195956" style={{ textDecoration: "none" }}>
+              <TitleTwo>{t("home.callNow")}</TitleTwo>
+            </a>
           </CallNow>
 
           <SecondSection>
@@ -164,8 +166,7 @@ const Home = () => {
       </ThirdSection>
       <MarcasDiv>
         <MarcasDiv2>
-          <MarcasDivTexts           
-          >
+          <MarcasDivTexts>
             <MarcasTitle>{t("brands.title")}</MarcasTitle>
             <MarcasText>
               {t("brands.text1")}

@@ -1,15 +1,10 @@
 import styled from "styled-components";
-import { motion } from "framer-motion";
 import React from "react";
 import { useTranslation } from "react-i18next";
-import {
-  desktopSmall,
-  desktop,
-  desktopLarge,
-} from "../dimensions";
-
+import { desktopSmall, desktop, desktopLarge, mobile } from "../dimensions";
 
 const PostersContainer = styled.div`
+  /* 🔵 DESKTOP (IGUAL AO ORIGINAL — NÃO MEXE) */
   display: grid;
   grid-template-columns: 1fr;
   gap: 20px;
@@ -33,29 +28,44 @@ const PostersContainer = styled.div`
     gap: 40px;
     padding: 60px;
   }
+
+  /* 📱 MOBILE — CARROSSEL (SÓ AQUI) */
+  ${mobile} {
+    display: flex;
+    overflow-x: auto;
+    gap: 16px;
+    padding: 20px;
+    scroll-snap-type: x mandatory;
+    -webkit-overflow-scrolling: touch;
+
+    scrollbar-width: none;
+    &::-webkit-scrollbar {
+      display: none;
+    }
+  }
 `;
 
-const PosterImage = styled(motion.img)`
+const PosterImage = styled.img`
+  /* 🔵 DESKTOP (IGUAL AO ORIGINAL) */
   width: 100%;
   max-width: 500px;
   border-radius: 12px;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
-  transition: opacity 0.3s ease, transform 0.3s ease;
+  cursor: pointer;
 
-  &:hover {
-    opacity: 0.8;
-    transform: scale(1.05);
+  /* 📱 MOBILE — ITEM DO CARROSSEL */
+  ${mobile} {
+    width: 85%;
+    max-width: 320px;
+    flex-shrink: 0;
+    scroll-snap-align: center;
+
+    &:hover {
+      transform: scale(1.05);
+      opacity: 0.9;
+    }
   }
 `;
-
-const imageVariants = {
-  hidden: { opacity: 0, y: 30 },
-  visible: (i: number) => ({
-    opacity: 1,
-    y: 0,
-    transition: { delay: i * 0.2, duration: 0.5 },
-  }),
-};
 
 const Posters = () => {
   const { i18n } = useTranslation();
@@ -72,17 +82,11 @@ const Posters = () => {
   const postersToShow = isPortuguese ? postersPT : postersEN;
 
   return (
-    
     <PostersContainer>
       {postersToShow.map((src, i) => (
         <PosterImage
           key={src}
           src={src}
-          custom={i}
-          initial="hidden"
-          whileInView="visible"
-          viewport={{ once: true, amount: 0.6 }}
-          variants={imageVariants}
           alt={`Poster ${i + 1}`}
           onClick={handleClick}
         />

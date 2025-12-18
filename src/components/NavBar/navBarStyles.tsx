@@ -1,6 +1,6 @@
 import styled from "styled-components";
 import { CContainer, CNavLink, CNavbar, CNavbarNav } from "@coreui/react";
-import { mobile,desktop } from "../dimensions";
+import { mobile, desktop } from "../dimensions";
 import WebFont from "webfontloader";
 
 WebFont.load({
@@ -10,18 +10,28 @@ WebFont.load({
 });
 
 export const Img = styled.img`
-  width: 15rem;
+  width: 12rem;
   height: auto;
-  ${mobile}{
-      display: none;
-    }
+
+  ${mobile} {
+    display: none;
+  }
+`;
+
+export const MobileImg = styled.img`
+  width: 5rem; /* 🔽 menor no mobile */
+
+  ${desktop} {
+    display: none;
+  }
 `;
 
 export const ImgTwo = styled.img`
   margin-right: 1rem;
   width: 1.5rem;
+
   ${mobile} {
-    margin-right: 0rem;
+    margin-right: 0;
   }
 `;
 
@@ -30,48 +40,57 @@ export const StyledCnavbar = styled(CNavbar)`
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 1rem 1rem;
+
+  /* DESKTOP */
+  padding: 0.75rem 1rem;
+
+  /* MOBILE */
   ${mobile} {
-    padding: 1rem 0rem;
+    padding: 0.4rem 0.75rem; /* 🔽 altura real */
+    min-height: 56px;        /* padrão mobile */
   }
 `;
-export const MobileImg = styled.img`
-    width: 7rem;
-    ${desktop}{
-      display: none;
-    }
-`
+
 export const StyledCCointainer = styled(CContainer)`
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 4rem;
 
+  /* DESKTOP */
+  padding: 0.75rem 1rem;
+
+  /* MOBILE */
   ${mobile} {
-    padding: 1.5rem;
+    padding: 0; /* 🔥 remove gordura */
   }
 `;
 
 export const StyledCNavbarNav = styled(CNavbarNav)`
   display: flex;
   align-items: center;
-  gap: 2rem; 
- 
+  gap: 2rem;
+
   ${mobile} {
-    justify-content: space-between;
     width: 100%;
-    gap: 1rem; 
+    justify-content: space-between;
+    gap: 0.5rem;
   }
 `;
+
 export const MenusDiv = styled.div`
-display: flex;
-`
+  display: flex;
+  align-items: center;
+
+  ${mobile} {
+    gap: 0.25rem;
+  }
+`;
 
 export const StyledNavLink = styled(CNavLink)`
   font-family: "Oswald", sans-serif;
   font-size: 1.6rem;
   font-weight: 600;
-  margin-left:2rem;
+  margin-left: 2rem;
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
   color: #2900f7;
   text-decoration: none;
@@ -81,25 +100,27 @@ export const StyledNavLink = styled(CNavLink)`
   }
 
   ${mobile} {
-    margin-left: 0.2rem;
-    font-size: 0.8rem;
-    
+    margin-left: 0;
+    font-size: 0.85rem;
+    padding: 0.25rem 0.4rem; /* 🔽 reduz altura */
     text-align: center;
   }
 `;
 
 export const LanguageIcons = styled.div`
   position: absolute;
-  top: 0.5rem;
-  right: 1rem;
+  top: 0.4rem;
+  right: 0.75rem;
   display: flex;
   align-items: center;
-  gap: 0.5rem;
+  gap: 0.4rem;
 `;
+
 export const LanguageIconsImg = styled.img`
-width: 2rem;
-cursor: pointer;
-${mobile} {
-  width: 1.5rem;
+  width: 2rem;
+  cursor: pointer;
+
+  ${mobile} {
+    width: 1.4rem;
   }
-`
+`;
